@@ -117,10 +117,10 @@ feeds:
     web: http://habrahabr.ru/tag/perl/
   - url: http://clubs.ya.ru/4611686018427388089/rss/posts.xml
     title: Perl на ya.ru
-	web: http://clubs.ya.ru/4611686018427388089/
+    web: http://clubs.ya.ru/4611686018427388089/
   - url: http://clubs.ya.ru/4611686018427411041/rss/posts.xml
     title: Регулярные выражения на ya.ru
-	web: http://clubs.ya.ru/4611686018427411041/
+    web: http://clubs.ya.ru/4611686018427411041/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
