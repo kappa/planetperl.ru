@@ -1,8 +1,3 @@
-    <hr />
-    <address>[% feed.author | html %] / [% feed.modified | html %]</address>
-  </body>
-</html>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
@@ -15,7 +10,7 @@
 
    <link rel="stylesheet" href="styles-site.css" type="text/css" />
    
-    <title>[% feed.title | HTML %]</title>
+    <title>[% feed.title | html %]</title>
 XXX <$MTInclude module="google-analytics"$>
 </head>
 <body class="layout-two-column-left">
@@ -24,8 +19,8 @@ XXX <$MTInclude module="google-analytics"$>
 <div style="position: absolute;">XXX <$MTInclude module="top100-counter"$></div>
          <div id="banner">
             <div id="banner-inner" class="pkg">
-               <h1 id="banner-header"><a href="/" accesskey="1">[% feed.title | HTML %]</a></h1>
-               <h2 id="banner-description">[% feed.description | HTML %]</h2>
+               <h1 id="banner-header"><a href="/" accesskey="1">[% feed.title | html %]</a></h1>
+               <h2 id="banner-description">[% feed.description | html %]</h2>
             </div>
          </div>
          
@@ -50,7 +45,7 @@ XXX <$MTInclude module="google-analytics"$>
 [% IF entry.author OR entry.issued %]
                               <p class="entry-footer">
                                  [% IF entry.issued %]<span class="post-footers">[% entry.issued | html %]</span>[% END %]
-                                 [% IF entry.author %]<span class="separator">|</span> написал [% entry.author | html %]
+                                 [% IF entry.author %]<span class="separator">|</span> написал [% entry.author | html %][% END %]
                               </p>
 [% END %]                              
                            </div>
@@ -66,6 +61,7 @@ XXX <$MTInclude module="google-analytics"$>
                      <div class="module">
                         <h2 class="module-header">Мета</h2>
                         <div class="module-content">
+    <address>[% feed.author | html %] / [% feed.modified | html %]</address>
 <ul>
 <li><a href="http://copi.ru/19060/" title="Ячейка COPi">Обо мне</a></li>
 <li><a href="http://kappa.moikrug.ru/"><img style="width: 16px; height: 16px; border:0; vertical-align: middle; margin-right: 3px;" src="http://moikrug.ru/images/icon.gif" alt="MoiKrug - Капранов Алексей" title="MoiKrug - Капранов Алексей" /></a><a href="http://kappa.moikrug.ru/" title="MoiKrug - Капранов Алексей">Мой круг</a></li>
