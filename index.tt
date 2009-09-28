@@ -1,25 +1,287 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="alternate" type="application/atom+xml" title="Atom со всеми записями" href="http://planetperl.ru/atom.xml" />
-    <link rel="outline" type="text/x-opml" title="OPML со всеми блогами" href="http://planetperl.ru/opml.xml" />
-    <title>[% feed.title %]</title>
-  </head>
-  <body>
-    <h1>[% feed.title %]</h1>
-    <p>[% feed.description %]</p>
-[% FOREACH entry IN feed.entries %]
-    <h2><a href="[% entry.link | url | html %]">[% entry.title | html %]</h2></a>
-    [% entry.content.body %]
-[% IF entry.author OR entry.issued %]
-    <p>Published[% IF entry.author %] by [% entry.author | html; END %]
-    [% IF entry.issued %] on [% entry.issued | html; END %]</p>
-[% END %]
-[% END %]
     <hr />
     <address>[% feed.author | html %] / [% feed.modified | html %]</address>
   </body>
 </html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="github/kappa/perlanet" />
+   
+   <link rel="alternate" type="application/atom+xml" title="Atom со всеми записями" href="http://planetperl.ru/atom.xml" />
+   <link rel="outline" type="text/x-opml" title="OPML со всеми блогами" href="http://planetperl.ru/opml.xml" />
+
+   <link rel="stylesheet" href="styles-site.css" type="text/css" />
+   
+    <title>[% feed.title | HTML %]</title>
+XXX <$MTInclude module="google-analytics"$>
+</head>
+<body class="layout-two-column-left">
+   <div id="container">
+      <div id="container-inner" class="pkg">
+<div style="position: absolute;">XXX <$MTInclude module="top100-counter"$></div>
+         <div id="banner">
+            <div id="banner-inner" class="pkg">
+               <h1 id="banner-header"><a href="/" accesskey="1">[% feed.title | HTML %]</a></h1>
+               <h2 id="banner-description">[% feed.description | HTML %]</h2>
+            </div>
+         </div>
+         
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+
+[% FOREACH entry IN feed.entries %]
+                     <MTDateHeader><h2 class="date-header"><$MTEntryDate format="%A, %e-е %B %Y г."$></h2></MTDateHeader>
+                     <a id="a<$MTEntryID pad="1"$>"></a>
+                     <div class="entry" id="entry-<$MTEntryID$>">
+                        <h3 class="entry-header"><a href="[% entry.link | url | html %]">[% entry.title | html %]</a></h3>
+                        <div class="entry-content">
+                           <div class="entry-body">
+                              [% entry.content.body %]
+                              <MTEntryIfExtended>
+                              <p class="entry-more-link">
+                                 <a href="<$MTEntryPermalink$>#more">далее&#133; &laquo;<$MTEntryTitle$>&raquo;</a>
+                              </p>
+                              </MTEntryIfExtended>
+[% IF entry.author OR entry.issued %]
+                              <p class="entry-footer">
+                                 [% IF entry.issued %]<span class="post-footers">[% entry.issued | html %]</span>[% END %]
+                                 [% IF entry.author %]<span class="separator">|</span> написал [% entry.author | html %]
+                              </p>
+[% END %]                              
+                           </div>
+                        </div>
+                     </div>
+[% END %]
+                  </div>
+               </div>
+               
+               <div id="beta">
+                  <div id="beta-inner" class="pkg">
+
+                     <div class="module">
+                        <h2 class="module-header">Мета</h2>
+                        <div class="module-content">
+<ul>
+<li><a href="http://copi.ru/19060/" title="Ячейка COPi">Обо мне</a></li>
+<li><a href="http://kappa.moikrug.ru/"><img style="width: 16px; height: 16px; border:0; vertical-align: middle; margin-right: 3px;" src="http://moikrug.ru/images/icon.gif" alt="MoiKrug - Капранов Алексей" title="MoiKrug - Капранов Алексей" /></a><a href="http://kappa.moikrug.ru/" title="MoiKrug - Капранов Алексей">Мой круг</a></li>
+<!-- <li><a href="http://kapranoff.ru/discuss/" title="Форум">Форум</a></li> -->
+</ul>
+                        </div>
+                     </div>
+
+<!--                     <div class="module">
+                        <h2 class="module-header">Линкблог</h2>
+                        <div class="module-content">
+<$ MTInclude module="myweb-badge"$>
+                        </div>
+                     </div>
+-->
+
+                     <div class="module module-calendar">
+                        <h2 class="module-header"><$MTDate format="%OB %Y"$></h2>
+                        <div class="module-content">
+<div align="center" class="calendar">
+
+<table border="0" cellspacing="4" cellpadding="0" summary="Текущий
+месяц со ссылками на записи каждого дня" width="100%">
+<tr>
+<MTCalendarDOW>
+<th abbr="<$MTCalendarDOWName$>" align="center"><span class="calendar"><$MTCalendarDOWShort$></span></th>
+</MTCalendarDOW>
+</tr>
+
+<MTCalendar>
+<MTCalendarWeekHeader><tr></MTCalendarWeekHeader>
+
+<td align="center"><span class="calendar">
+<MTCalendarIfEntries><MTEntries lastn="1"><a href="<$MTEntryPermalink$>"><$MTCalendarDay$></a></MTEntries></MTCalendarIfEntries><MTCalendarIfNoEntries><$MTCalendarDay$></MTCalendarIfNoEntries><MTCalendarIfBlank>&nbsp;</MTCalendarIfBlank></span></td><MTCalendarWeekFooter></tr></MTCalendarWeekFooter></MTCalendar>
+</table>
+
+</div>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Поиск на сайте</h2>
+                        <div class="module-content">
+<form name="Search" method="get" action="http://search.rambler.ru/srch">
+<input name="where" value="1" type="hidden">
+<input name="sort" value="0" type="hidden">
+<input type=hidden name="filter" value="kapranoff.ru">
+<input type=hidden name="oe" value="koi8r">
+<table border="0" cellpadding="0" cellspacing="6" width="100%">
+<tr><td><a href="http://www.rambler.ru/"><img src="http://images.rambler.ru/sf/rlogo2_FFFFFF.gif" alt="Рамблер" border="0" height="21" width="100"></a>
+<tr><td><input name="words" size="20">
+<tr><td><input value="Найти" type="submit">
+</table>
+</form>
+                        </div>
+                     </div>
+
+                     <MTIfArchiveTypeEnabled archive_type="Monthly">
+                     <div class="module-archives module">
+                        <h2 class="module-header">Архив</h2>
+                        <div class="module-content">
+                        <MTArchiveList archive_type="Monthly">
+                           <MTArchiveListHeader><ul></MTArchiveListHeader>
+                              <li><a href="<$MTArchiveLink$>"><$MTArchiveTitle$></a></li>
+                           <MTArchiveListFooter></ul></MTArchiveListFooter>
+                        </MTArchiveList>
+                        </div>
+                     </div>
+                     </MTIfArchiveTypeEnabled>
+
+                     <div class="module">
+                        <h2 class="module-header">Гадальная<br />карта сайта</h2>
+                        <div class="module-content">
+<a href="/mt/mt-mapall.cgi?blog_id=1&side=128&"><img width="128" height="128" src="/girarot.gif" ismap="ismap" border="0"></a>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Фотоархив</h2>
+                        <div class="module-content">
+<ul>
+<li><a href="http://www.flickr.com/photos/kapranoff/" title="Фликррр">Я@flickr</a></li>
+<li><a href="http://photo.kapranoff.ru/" title="Фотогалерея">Альбомы</a></li>
+<li><a href="http://kapranoff.ru/archives/cat_photo.html" title="Все записи блога с фотографиями одной простынёй">Всё подряд с блога</a><br />(осторожно, трафик)</li>
+</ul>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Последние слова</h2>
+                        <div class="module-content">
+<MTComments lastn="10" sort_order="descend">
+<$MTCommentDate format="%a, %e-е, %H:%M"$>, <$MTCommentAuthor$> на запись:<br />
+<MTCommentEntry>
+	&nbsp;&nbsp;&nbsp;<a href="<$MTEntryPermalink$>"><$MTEntryTitle$></a><br />
+</MTCommentEntry>
+</MTComments>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Внутри я читаю</h2>
+                        <div class="module-content">
+<div style="margin-top:7px; margin-left:5px; color: black;"><img src="http://www.ozon.ru/multimedia/books_covers/b246267.jpg" border="1" align="left" valign="top" hspace="2" width="120">Салман Рушди</div>
+
+<br clear="left">
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">И слушаю</h2>
+                        <div class="module-content">
+<a href="http://www.last.fm/user/kkapp/?chartstyle=SidebarPlain"><img src="http://imagegen.last.fm/SidebarPlain/oartists/kkapp.gif" border="0" /></a>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Снаружи я читаю</h2>
+                        <div class="module-content">
+<ul>
+<li><a href="http://slashdot.org/">/.</a></li>
+<li><a href="http://www.bloglines.com/public/kappa/">Blog(line)s</a></li>
+<li><a href="http://www.userfriendly.org/static/">UserFriendly</a></li>
+<li><a href="http://www.geekculture.com/joyoftech/">Joy of Tech</a></li>
+<li><a href="http://bash.org/">Bash.org</a></li>
+<li><a href="http://bash.org.ru/">Русский Bash.org</a></li>
+<li><a href="http://www.perlmonks.org/">Perlmonks</a></li>
+<li><a href="http://pelevin.nov.ru/victorolegovich/">Виктор Олегович&trade;</a></li>
+<li><a href="http://www.wowwi.orc.ru/renga/">Хайкай-но РенгуРу</a></li>
+<li><a href="http://www.fuga.ru/tok/">Time O'Clock</a></li>
+</ul>
+                        </div>
+                     </div>
+
+                     <div class="module module-closed-links">
+                        <h2 class="module-header">&#133;прочитал</h2>
+                        <div class="module-content">
+<ul>
+<li><a href="http://www.russ.ru/netcult/nevod/">Невод</a></li>
+<li><a href="http://www.diary.ru/~renixa/">Lifelines</a></li>
+<li><a href="http://www.sa.bryansk.ru/words/">stand.alone/words</a></li>
+<li><a href="http://www.digitalphotocontest.com/">DPContest Photos of the Day</a></li>
+<li><a href="http://www.bookmaster.ru/">The Bookmastering</a></li>
+</ul>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Други верные</h2>
+                        <div class="module-content">
+<ul>
+<li><a href="http://www.diary.ru/~brrun/">Брюнъ</a></li>
+<li><a href="http://www.photo.bryansktalk.ru/">Брянск объективный</a></li>
+<li><a href="http://www.briansk.ru/">Брянск.Ру &mdash; интернет-газета</a></li>
+<li><a href="http://voffka.com/">Воффка.ком</a></li>
+<li><a href="http://www.kuy.ru/" title="Куют-с">Куяторы</a></li>
+</ul>
+                        </div>
+                     </div>
+
+                     <div class="module-syndicate module">
+                        <h2 class="module-header">По-другому</h2>
+                        <div class="module-content">
+<ul>
+<li class="module-list-loose"><a href="<$MTBlogURL$>atom.xml" class="xmlbutton">Atom</a> <a href="<$MTBlogURL$>index.xml" class="xmlbutton">RSS</a>
+<li class="module-list-loose"><a href="http://www.livejournal.com/users/kapranoffru/">LiveJournal</a> <a href='http://www.livejournal.com/friends/add.bml?user=kapranoffru'><img src='http://stat.livejournal.com/img/btn_addfriend.gif' width='22' height='20' alt='Добавить этого пользователя в вашу ленту друзей' title='Добавить этого пользователя в вашу ленту друзей' align='middle' border='0' /></a>
+<li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=<$MTBlogURL$>index.xml"><img  border=0 src="http://img.photobucket.com/albums/v282/mcmartyn/yandex_lenta.gif"></a>
+<li><a href="http://kapr.photosight.ru">photo.sight</a>
+<li><a href="http://www.livejournal.com/users/quappa/">Рассказы Ляо Чжая о чудесах</a>
+<li><a href="http://planet.rambler.ru/users/kkapp/">Webmale</a>
+                        </div>
+                     </div>
+
+                     <MTBlogIfCCLicense>
+                     <div class="module-creative-commons module">
+                        <div class="module-content">
+                           <a href="<$MTBlogCCLicenseURL$>"><img alt="Creative Commons License" src="<$MTBlogCCLicenseImage$>" /></a><br />
+                           This weblog is licensed under a <a href="<$MTBlogCCLicenseURL$>">Creative Commons License</a>.
+                        </div>
+                     </div>
+                     </MTBlogIfCCLicense>
+                     
+                     <div class="module-powered module">
+                        <h2 class="module-header">Powered by</h2>
+                        <div class="module-content">
+<a href="http://www.sixapart.com/movabletype/">Movable Type</a><br /><br />
+<a href="http://ru.wikipedia.org"><img src="/Wiki_button.gif" border="0" /></a>
+                        </div>
+                     </div>
+
+                     <div class="module">
+                        <h2 class="module-header">Приборы</h2>
+                        <div class="module-content">
+<!--begin of Top100 logo-->
+<a href="http://top100.rambler.ru/top100/">
+<img src="http://top100-images.rambler.ru/top100/w1.gif" alt="Rambler's Top100" width=88 height=31 border=0></a>
+<!--end of Top100 logo -->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='http://counter.yadro.ru/hit?t38.11;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border=0 width=31 height=31><\/a>")//--></script><!--/LiveInternet-->
+                        </div>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+</html>
+
