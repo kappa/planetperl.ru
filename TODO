@@ -1,6 +1,9 @@
-XXX self links
+Perlanet errors about <head>
 colophon
 separate html with links to all blogs for Google CSE
 favicon
 о сайте
-фид через feedburner
+fix links in .kz (%%)
+кэширующий useragent (проверяющий всякие умные хедеры)
+снять все атрибуты class= и id= (короче, повторить санитайзер)
+даты

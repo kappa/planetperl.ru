@@ -4,7 +4,7 @@ url: http://planetperl.ru/
 author:
   name: Alex Kapranoff
   email: kapranoff@gmail.com
-entries: 100
+entries: 50
 opml: opml.xml
 page:
   file: index.html
@@ -12,6 +12,7 @@ page:
 feed:
   file: atom.xml
   format: Atom
+  url: http://feeds.feedburner.com/planetperlru
 feeds:
   - url: http://habrahabr.ru/rss/blogs/perl/
     title: Великий язык PERL! / Блог / Хабрахабр
