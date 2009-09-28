@@ -1,0 +1,121 @@
+title: Русский Перл
+description: Что пишут о Перле на русском языке
+url: http://planetperl.ru/
+author:
+  name: Alex Kapranoff
+  email: kapranoff@gmail.com
+entries: 100
+opml: opml.xml
+page:
+  file: index.html
+  template: index.tt
+feed:
+  file: atom.xml
+  format: Atom
+feeds:
+  - url: http://habrahabr.ru/rss/blogs/perl/
+    title: Великий язык PERL! / Блог / Хабрахабр
+    web: http://habrahabr.ru/blogs/perl/
+  - url: http://community.livejournal.com/ru_perl/data/atom
+    title: Сообщество ru_perl в LiveJournal
+    web: http://community.livejournal.com/ru_perl/
+  - url: http://moscow.pm.org/rss/
+    title: Moscow.pm 2.0
+    web: http://moscow.pm.org/
+  - url: http://perl6.ru/rss/
+    title: Perl6.ru
+    web: http://perl6.ru
+  - url: http://sharifulin.livejournal.com/data/atom
+    title: Анатолий Шарифулин
+    web: http://sharifulin.livejournal.com/tag/perl
+  - url: http://kiev.pm.org/rss.xml
+    title: kiev.pm
+    web: http://kiev.pm.org/
+  - url: http://onperl.ru/onperl/atom.xml
+    title: On Perl — блог о языке программирования Perl и его сообществе
+    web: http://onperl.ru/
+  - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
+    title: VPF::Perl — Форум программистов
+    web: http://forum.vingrad.ru/forum/Perl-forum.html
+  - url: http://www.opennet.ru/opennews/section/31.rss
+    title: Мини-портал Perl на Opennet
+    web: http://www.opennet.ru/mp/perl/
+  - url: http://feeds.feedburner.com/bessarabov
+    title: bessarabov
+    web: http://blog.bessarabov.ru/
+  - url: http://perlmonks.org.ru/vorota_v_perl/atom.xml
+    title: Ворота в Perl
+    web: http://perlmonks.org.ru/vorota_v_perl/
+  - url: http://laziness-impatience-hubris.blogspot.com/feeds/posts/default
+    title: Laziness, Impatience and Hubris
+    web: http://laziness-impatience-hubris.blogspot.com/
+  - url: http://yvision.kz/feed/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl
+    title: Язык_Perl | Сообщества на YVISION.KZ
+    web: http://yvision.kz/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl/
+  - url: http://ihrd.livejournal.com/data/rss
+    title: Internal Server Error
+    web: http://ihrd.livejournal.com/
+  - url: http://xpoint.ru/forums/programming/perl/nursery/newthreads.rss
+    title: XPoint.ru | Программирование::Perl::Основы
+    web: http://xpoint.ru/forums/programming/perl/nursery/forum.xhtml
+  - url: http://xpoint.ru/forums/programming/perl/modules/newthreads.rss
+    title: XPoint.ru | Программирование::Perl::Модули
+    web: http://xpoint.ru/forums/programming/perl/modules/forum.xhtml
+  - url: http://xpoint.ru/forums/programming/perl/windows/newthreads.rss
+    title: XPoint.ru | Программирование::Perl::Windows аспекты
+    web: http://xpoint.ru/forums/programming/perl/windows/forum.xhtml
+  - url: http://xpoint.ru/forums/programming/perl/regexp/newthreads.rss
+    title: XPoint.ru | Программирование::Perl::Регулярные выражения
+    web: http://xpoint.ru/forums/programming/perl/regexp/forum.xhtml
+  - url: http://xpoint.ru/forums/programming/perl/mod_perl/newthreads.rss
+    title: XPoint.ru | Программирование::Perl::mod_perl
+    web: http://xpoint.ru/forums/programming/perl/mod_perl/forum.xhtml
+  - url: http://xpoint.ru/forums/programming/perl/misc/newthreads.rss
+    title: XPoint.ru | Программирование::Perl::Разное
+    web: http://xpoint.ru/forums/programming/perl/misc/forum.xhtml
+  - url: http://green-kakadu.livejournal.com/data/atom
+    title: GneZdo
+    web: http://green-kakadu.livejournal.com/
+  - url: http://hobohabilis.livejournal.com/data/atom
+    title: Stupid notes on my fucking life
+    web: http://hobohabilis.livejournal.com/
+  - url: http://m-ivanov.livejournal.com/data/atom
+    title: Чтобы не искать
+    web: http://m-ivanov.livejournal.com/
+  - url: http://gerdlerin.livejournal.com/data/atom
+    title: gerdlerin
+    web: http://gerdlerin.livejournal.com/
+  - url: http://bacek.livejournal.com/data/atom
+    title: Старое криведко
+    web: http://bacek.livejournal.com/
+  - url: http://andrey.opeykin.ru/tag/perl-programming/feed/
+    title: Опейкин Андрей » Perl
+    web: http://andrey.opeykin.ru/tag/perl-programming/
+  - url: http://pavel-kudinov.livejournal.com/data/atom
+    title: Павел Кудинов
+    web: http://pavel-kudinov.livejournal.com/
+  - url: http://likhatskiy.livejournal.com/data/atom
+    title: likhatskiy
+    web: http://likhatskiy.livejournal.com/
+  - url: http://community.livejournal.com/ru_perlfuck/data/atom
+    title: Perlfuck Cookbook
+    web: http://community.livejournal.com/ru_perlfuck/
+  - url: http://feeds.feedburner.com/ZagsPersonalBlog
+    title: ZAG.RU
+    web: http://zag.ru/
+  - url: http://dzhariy.blogspot.com/feeds/posts/default
+    title: bless $this, Blog
+    web: http://dzhariy.blogspot.com/
+  - url: http://yapc.tv/rss/ru/
+    title: Perl talks
+    web: http://yapc.tv/
+  - url: http://cubloid.livejournal.com/data/atom
+    title: cubloid
+    web: http://cubloid.livejournal.com/
+  - url: http://habrahabr.ru/rss/tag/perl/
+    title: Хабрахабр: Метки / perl
+    web: http://habrahabr.ru/tag/perl/
+more_feeds:
+  - url: http://cpan.perlrussia.ru/Russian/rss.xml
+    title: CPAN uploads by Russian authors
+    web: http://cpan.perlrussia.ru/
