@@ -1,7 +1,3 @@
-fix links in .kz (%%)
-снять все атрибуты class= и id= (короче, повторить санитайзер)
-submit form
-даты
 формат entry footer-ов
 validate
 кэширующий useragent (проверяющий всякие умные хедеры)
@@ -9,3 +5,4 @@ validate
 favicon (+ картинка в FrF и Twitter)
 о сайте
 приборы
+честный санитайзинг
