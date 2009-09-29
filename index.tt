@@ -5,6 +5,9 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
    <meta name="generator" content="github/kappa/perlanet" />
 
+   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
    <link rel="alternate" type="application/atom+xml" title="Atom со всеми записями" href="[% cfg.feed.url | html %]" />
    <link rel="outline" type="text/x-opml" title="OPML со всеми блогами" href="[% cfg.url | html %][% cfg.opml | html %]" />
 
