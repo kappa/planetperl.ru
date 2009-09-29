@@ -39,7 +39,7 @@
                             [% IF entry.author OR entry.issued %]
                               <p class="entry-footer">
                                  [% IF entry.author %]<span class="post-footers">Написал [% entry.author | html %]</span>[% IF entry.issued %] <span class="separator">в</span>[% END %][% END %]
-                                 [% IF entry.issued %]<span class="post-footers">[% entry.issued.strftime("%R") | html %]</span>[% END %]
+                                 [% IF entry.issued %]<span class="post-footers">[% entry.issued.set_time_zone("Europe/Moscow").strftime("%R") | html %]</span>[% END %]
                               </p>
                             [% END %]
 
@@ -58,7 +58,7 @@
                         <div class="module-content">
 
 <ul>
-<li><i>Последнее обновление было [% feed.modified.strftime("%F в %R") | html %]</i></li>
+<li><i>Последнее обновление было [% feed.modified.set_time_zone("Europe/Moscow").strftime("%F в %R") | html %] по Москве</i></li>
 <li><a href="https://spreadsheets.google.com/viewform?formkey=dC04aFdpaXJWeXdPSlVvU3llSnptcmc6MA">Добавить сайт</a>
 </ul>
                         </div>
