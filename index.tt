@@ -110,6 +110,7 @@
                         <h2 class="module-header">Powered by</h2>
                         <div class="module-content">
 <a href="http://github.com/kappa/perlanet">[% cfg.agent | html %]</a><br />
+<a href="http://github.com/kappa/planetperl.ru">open source</a><br />
 <a href="http://kapranoff.ru">Алексей Капранов</a>
                         </div>
                      </div>
