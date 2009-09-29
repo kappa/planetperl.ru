@@ -84,8 +84,7 @@
                         <div class="module-content">
                         <ul>
                         [% FOREACH col IN cfg.feeds %]
-                        <li><a href="[% col.web | html %]">[% col.title
-                        %]</a>
+                        <li class="module-list-loose"><a href="[% col.web | html %]">[% col.title %]</a>
                         [% END %]
                         </ul>
                         <p><a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]"><img src="/opml-icon-16x16.png" border="0"></a>&nbsp;<a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]">OPML</a></p>
