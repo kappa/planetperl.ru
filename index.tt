@@ -83,9 +83,9 @@
                         <div class="module-content">
 <ul>
 <li class="module-list-loose">
-<a href="[% cfg.feed.url | html %]" title="Подписаться"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0"/></a><a href="[% cfg.feed.url | html %]" title="Подписаться">Подписаться</a>
+<a href="[% cfg.feed.url | html %]" title="Подписаться"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0"/></a><a href="[% cfg.feed.url | html %]" title="Подписаться">Подписка</a>
 <li class="module-list-loose"><a href="http://friendfeed.com/planetperl-ru"><img src="http://friendfeed.com/static/images/chiclet.png" alt="Подписаться на канал FriendFeed" title="Подписаться на канал FriendFeed"/></a>
-<li class="module-list-loose"><a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a> <a href='http://www.livejournal.com/friends/add.bml?user=planetperlru'><img src='http://stat.livejournal.com/img/btn_addfriend.gif' width='22' height='20' alt='Добавить этого пользователя в вашу ленту друзей' title='Добавить этого пользователя в вашу ленту друзей' align='middle' border='0' /></a>
+<li class="module-list-loose"><a href='http://www.livejournal.com/friends/add.bml?user=planetperlru'><img src='http://stat.livejournal.com/img/btn_addfriend.gif' width='22' height='20' alt='Добавить этого пользователя в вашу ленту друзей' title='Добавить этого пользователя в вашу ленту друзей' align='middle' border='0' /></a><a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
 <li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="http://lenta.yandex.ru/i/addfeed.gif" border="0" alt="Читать в Яндекс.Ленте" /></a>
 <li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="http://twitbuttons.com/buttons2/9/8.png" alt="Twitter Button from twitbuttons.com" /></a>
                         </div>
