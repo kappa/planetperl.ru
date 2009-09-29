@@ -19,3 +19,6 @@ feeds:
   - url: http://habrahabr.ru/rss/blogs/perl/
     title: Великий язык PERL! / Блог / Хабрахабр
     web: http://habrahabr.ru/blogs/perl/
+  - url: http://yvision.kz/feed/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl
+    title: Язык_Perl | Сообщества на YVISION.KZ
+    web: http://yvision.kz/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl/
