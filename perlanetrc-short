@@ -1,0 +1,19 @@
+title: Русский Перл
+description: Что пишут о Перле на русском языке
+url: http://planetperl.ru/
+author:
+  name: Alex Kapranoff
+  email: kapranoff@gmail.com
+entries: 50
+opml: opml.xml
+page:
+  file: index.html
+  template: index.tt
+feed:
+  file: atom.xml
+  format: Atom
+  url: http://feeds.feedburner.com/planetperlru
+feeds:
+  - url: http://habrahabr.ru/rss/blogs/perl/
+    title: Великий язык PERL! / Блог / Хабрахабр
+    web: http://habrahabr.ru/blogs/perl/
