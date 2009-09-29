@@ -78,14 +78,27 @@
                         </div>
                      </div>
 
+                     <div class="module">
+                        <h2 class="module-header">Участники</h2>
+                        <div class="module-content">
+                        <ul>
+                        [% FOREACH col IN cfg.feeds %]
+                        <li><a href="[% col.web | html %]">[% col.title
+                        %]</a>
+                        [% END %]
+                        </ul>
+                        <p><a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]"><img src="http://kapranoff.ru/opml-icon-16x16.png" border="0"></a>&nbsp;<a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]">OPML</a></p>
+                        </div>
+                     </div>
+
                      <div class="module-syndicate module">
                         <h2 class="module-header">По-другому</h2>
                         <div class="module-content">
 <ul>
 <li class="module-list-loose">
-<a href="[% cfg.feed.url | html %]" title="Подписаться"><img src="http://www.feedburner.com/fb/images/pub/feed-icon32x32.png" alt="" style="border:0"/></a><a href="[% cfg.feed.url | html %]" title="Подписаться">Подписка</a>
+<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS"><img src="http://www.feedburner.com/fb/images/pub/feed-icon16x16.png" alt="" style="border:0"/></a>&nbsp;<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS">RSS</a>
 <li class="module-list-loose"><a href="http://friendfeed.com/planetperl-ru"><img src="http://friendfeed.com/static/images/chiclet.png" alt="Подписаться на канал FriendFeed" title="Подписаться на канал FriendFeed"/></a>
-<li class="module-list-loose"><a href='http://www.livejournal.com/friends/add.bml?user=planetperlru'><img src='http://stat.livejournal.com/img/btn_addfriend.gif' width='22' height='20' alt='Добавить этого пользователя в вашу ленту друзей' title='Добавить этого пользователя в вашу ленту друзей' align='middle' border='0' /></a><a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
+<li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="http://stat.livejournal.com/img/btn_addfriend.gif" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
 <li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="http://lenta.yandex.ru/i/addfeed.gif" border="0" alt="Читать в Яндекс.Ленте" /></a>
 <li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="http://twitbuttons.com/buttons2/9/8.png" alt="Twitter Button from twitbuttons.com" /></a>
                         </div>

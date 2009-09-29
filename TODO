@@ -1,12 +1,11 @@
-colophon
 separate html with links to all blogs for Google CSE
 fix links in .kz (%%)
 снять все атрибуты class= и id= (короче, повторить санитайзер)
 submit form
 даты
+формат entry footer-ов
 validate
 кэширующий useragent (проверяющий всякие умные хедеры)
-OPML badge
 даты в OPML
 favicon
 о сайте

@@ -5,7 +5,7 @@ author:
   name: Alex Kapranoff
   email: kapranoff@gmail.com
 entries: 50
-opml: opml.xml
+opml: planetperlru.opml
 page:
   file: index.html
   template: index.tt
