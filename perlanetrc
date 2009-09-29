@@ -6,6 +6,7 @@ author:
   email: kapranoff@gmail.com
 entries: 50
 opml: planetperlru.opml
+cse_links: cse_links.html
 page:
   file: index.html
   template: index.tt
