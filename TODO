@@ -1,4 +1,3 @@
-separate html with links to all blogs for Google CSE
 fix links in .kz (%%)
 снять все атрибуты class= и id= (короче, повторить санитайзер)
 submit form
@@ -7,5 +6,6 @@ submit form
 validate
 кэширующий useragent (проверяющий всякие умные хедеры)
 даты в OPML
-favicon
+favicon (+ картинка в FrF и Twitter)
 о сайте
+приборы
