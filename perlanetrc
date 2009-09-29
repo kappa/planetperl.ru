@@ -124,6 +124,9 @@ feeds:
   - url: http://clubs.ya.ru/4611686018427411041/rss/posts.xml
     title: Регулярные выражения на ya.ru
     web: http://clubs.ya.ru/4611686018427411041/
+  - url: http://design-patterns-perl.blogspot.com/feeds/posts/default
+    title: Design Patterns in Perl
+	web: http://design-patterns-perl.blogspot.com/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
