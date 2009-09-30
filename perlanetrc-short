@@ -17,9 +17,15 @@ feed:
 agent: Perlanet/0.21+ for planetperl.ru
 cache_dir: /tmp/planetperl-cache
 feeds:
-  - url: http://habrahabr.ru/rss/blogs/perl/
-    title: Великий язык PERL! / Блог / Хабрахабр
-    web: http://habrahabr.ru/blogs/perl/
-  - url: http://yvision.kz/feed/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl
-    title: Язык_Perl | Сообщества на YVISION.KZ
-    web: http://yvision.kz/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl/
+  - url: http://mmcleric2.ya.ru/rss/posts.xml
+    title: Вячеслав Матюхин
+    web: http://mmcleric2.ya.ru/posts.xml?tag=858503
+    filter:
+      type: category
+      category: perl
+  - url: http://lj.rossia.org/users/igorpashev/data/atom
+    title: Игорь Пашев
+    web: http://lj.rossia.org/users/igorpashev/tag/perl
+    filter:
+      type: category
+      category: perl

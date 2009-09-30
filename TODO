@@ -1,9 +1,10 @@
 фильтры на фиды:
-	- category = perl (juick, feedburner, ya.ru, LJR, diary.ru)
-	- m/perl/
 	- custom s/// (vingrad)
 	- custom grep (убрать комменты с винграда)
+    - microblog (нет title или он равен телу)
+	- m/perl/
 картинка в FrF и Twitter
 о сайте
 приборы
 честный санитайзинг
+category filter doesn't work for LJR
