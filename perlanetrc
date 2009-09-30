@@ -154,8 +154,9 @@ feeds:
     title: Fd (freefd)
     web: http://juick.com/freefd/?tag=perl
     filter:
-      type: category
-      category: perl
+      - type: category
+        category: perl
+      - type: microblog
   - url: http://gark-87.livejournal.com/data/atom?tag=perl
     title: Everybody lies
     web: http://gark-87.livejournal.com/tag/perl
@@ -214,8 +215,9 @@ feeds:
     title: vti
     web: http://juick.com/vti/?tag=Perl
     filter:
-      type: category
-      category: Perl
+      - type: category
+        category: Perl
+      - type: microblog
   - url: http://amosk.livejournal.com/data/atom?tag=perl
     title: amosk
     web: http://amosk.livejournal.com/tag/perl
@@ -265,8 +267,9 @@ feeds:
     title: Zaitsev Kirill (teferi)
     web: http://juick.com/teferi/?tag=perl
     filter:
-      type: category
-      category: perl
+      - type: category
+        category: perl
+      - type: microblog
   - url: http://dcrsmith.blogspot.com/feeds/posts/default/-/Perl
     title: Бортовой Журнал
     web: http://dcrsmith.blogspot.com/search/label/Perl
@@ -274,8 +277,9 @@ feeds:
     title: Максим Вуец (mvuets)
     web: http://juick.com/mvuets/?tag=perl
     filter:
-      type: category
-      category: perl
+      - type: category
+        category: perl
+      - type: microblog
   - url: http://feeds.feedburner.com/6-6-6
     title: Андрей Костенко
     web: http://kostenko.name/tag/perl/
