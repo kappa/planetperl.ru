@@ -1,5 +1,9 @@
-кэширующий useragent (проверяющий всякие умные хедеры)
-favicon (+ картинка в FrF и Twitter)
+фильтры на фиды:
+	- category = perl (juick, feedburner, ya.ru, LJR, diary.ru)
+	- m/perl/
+	- custom s/// (vingrad)
+	- custom grep (убрать комменты с винграда)
+картинка в FrF и Twitter
 о сайте
 приборы
 честный санитайзинг
