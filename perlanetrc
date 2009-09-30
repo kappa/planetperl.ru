@@ -59,7 +59,7 @@ feeds:
     web: http://yvision.kz/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl/
   - url: http://ihrd.livejournal.com/data/atom?tag=perl6,perl
     title: Internal Server Error
-    web: http://ihrd.livejournal.com/
+    web: http://ihrd.livejournal.com/tag/perl6,perl
   - url: http://xpoint.ru/forums/programming/perl/nursery/newthreads.rss
     title: XPoint.ru | Программирование::Perl::Основы
     web: http://xpoint.ru/forums/programming/perl/nursery/forum.xhtml
@@ -80,19 +80,19 @@ feeds:
     web: http://xpoint.ru/forums/programming/perl/misc/forum.xhtml
   - url: http://green-kakadu.livejournal.com/data/atom?tag=perl
     title: GneZdo
-    web: http://green-kakadu.livejournal.com/
+    web: http://green-kakadu.livejournal.com/tag/perl
   - url: http://hobohabilis.livejournal.com/data/atom?tag=perl
     title: Stupid notes on my fucking life
-    web: http://hobohabilis.livejournal.com/
+    web: http://hobohabilis.livejournal.com/tag/perl
   - url: http://m-ivanov.livejournal.com/data/atom?tag=perl
     title: Чтобы не искать
-    web: http://m-ivanov.livejournal.com/
+    web: http://m-ivanov.livejournal.com/tag/perl
   - url: http://gerdlerin.livejournal.com/data/atom?tag=perl
     title: gerdlerin
-    web: http://gerdlerin.livejournal.com/
+    web: http://gerdlerin.livejournal.com/tag/perl
   - url: http://bacek.livejournal.com/data/atom?tag=perl,parrot
     title: Старое криведко
-    web: http://bacek.livejournal.com/
+    web: http://bacek.livejournal.com/tag/perl,parrot
   - url: http://andrey.opeykin.ru/tag/perl-programming/feed/
     title: Опейкин Андрей » Perl
     web: http://andrey.opeykin.ru/tag/perl-programming/
@@ -126,6 +126,117 @@ feeds:
   - url: http://design-patterns-perl.blogspot.com/feeds/posts/default
     title: Design Patterns in Perl
     web: http://design-patterns-perl.blogspot.com/
+  - url: http://shoorick.livejournal.com/data/atom?tag=perl
+    title: Shoor/нал
+    web: http://shoorick.livejournal.com/tag/perl
+  - url: http://infist-xxi.livejournal.com/data/atom?tag=perl
+    title: Сонник
+    web: http://infist-xxi.livejournal.com/tag/perl
+  - url: http://d11he11.livejournal.com/data/atom?tag=perl
+    title: i-t-шные заметки
+    web: http://d11he11.livejournal.com/tag/perl
+  - url: http://govnokod.ru/perl/rss
+    title: Perl — Говнокод.ру
+    web: http://govnokod.ru/perl
+  - url: http://alexander-simakov.blogspot.com/feeds/posts/default/-/perl
+    title: Александр Симаков — Perl
+    web: http://alexander-simakov.blogspot.com/search/label/perl
+  - url: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp&format=atom
+    title: Alex Kapranoff - перл
+    web: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp
+  - url: http://knutov.livejournal.com/data/atom?tag=perl
+    title: Меркантильный гуру
+    web: http://knutov.livejournal.com/tag/perl
+  - url: http://community.livejournal.com/ru_catalyst/data/atom
+    title: Catalyst Web Framework
+    web: http://community.livejournal.com/ru_catalyst/
+  - url: http://rss.juick.com/freefd/blog
+    title: Fd (freefd)
+    web: http://juick.com/freefd/?tag=perl
+  - url: http://gark-87.livejournal.com/data/atom?tag=perl
+    title: Everybody lies
+    web: http://gark-87.livejournal.com/tag/perl
+  - url: http://ejik-02.ya.ru/rss/posts.xml
+    title: Ёжик
+    web: http://ejik-02.ya.ru/posts.xml?tag=5081766
+  - url: http://ejikblog.ru/?feed=atom
+    title: Ежинный блог
+    web: http://ejikblog.ru/
+  - url: http://lj.rossia.org/users/igorpashev/data/atom
+    title: Игорь Пашев
+    web: http://lj.rossia.org/users/igorpashev/tag/perl
+  - url: http://feeds2.feedburner.com/skazkinwp
+    title: Блог Сказкина
+    web: http://www.skazkin.ru/tag/perl
+  - url: http://gwinnblade.livejournal.com/data/atom?tag=perl
+    title: Gwynn's Journal
+    web: http://gwinnblade.livejournal.com/tag/perl
+  - url: http://static.diary.ru/userdir/1/3/1/9/1319529/rss.xml
+    title: дневники — Lucifer's
+    web: http://www.diary.ru/~alexusblack/
+  - url: http://kroning.livejournal.com/data/atom?tag=perl
+    title: Записки счастливого полуготика
+    web: http://kroning.livejournal.com/tag/perl
+  - url: http://feeds.feedburner.com/bappoy
+    title:  Bappoy’s blog
+    web: http://bappoy.pp.ru/tag/perl
+  - url: http://blog.sdenix.net/feed/?tag=perl
+    title: /var/log/dev.log
+    web: http://blog.sdenix.net/tag/perl/
+  - url: http://rss.juick.com/vti/blog
+    title: vti
+    web: http://juick.com/vti/?tag=Perl
+  - url: http://amosk.livejournal.com/data/atom?tag=perl
+    title: amosk
+    web: http://amosk.livejournal.com/tag/perl
+  - url: http://simply-a-man.livejournal.com/data/atom?tag=perl
+    title: Две стороны одной медали
+    web: http://simply-a-man.livejournal.com/tag/perl
+  - url: http://blog.alpha6.ru/?feed=rss2&tag=perl
+    title: alpha6 blog
+    web: http://blog.alpha6.ru/?tag=perl
+  - url: http://max.bukurov.ru/feed/?tag=perl
+    title: Блог Максима Букурова » perl
+    web: http://max.bukurov.ru/tag/perl/
+  - url: http://foxweb.livejournal.com/data/atom?tag=perl
+    title: IN STEREO
+    web: http://foxweb.livejournal.com/tag/perl
+  - url: http://che-shr-cat.livejournal.com/data/atom?tag=perl
+    title: che_shr_cat
+    web: http://che-shr-cat.livejournal.com/tag/perl
+  - url: http://yasno-yasno.livejournal.com/data/atom?tag=perl
+    title: Ясно
+    web: http://yasno-yasno.livejournal.com/tag/perl
+  - url: http://grey-olli.livejournal.com/data/atom?tag=perl
+    title: grey_olli
+    web: http://grey-olli.livejournal.com/tag/perl
+  - url: http://mmcleric2.ya.ru/rss/posts.xml
+    title: Вячеслав Матюхин
+    web: http://mmcleric2.ya.ru/posts.xml?tag=858503
+  - url: http://blinohod.livejournal.com/data/atom?tag=perl
+    title: Rattler lives here...
+    web: http://blinohod.livejournal.com/tag/perl
+  - url: http://feeds2.feedburner.com/Foxcool
+    title: Blog of Foxcool
+    web: http://foxcool.ru/?tag=perl
+  - url: http://mpak666.livejournal.com/data/atom?tag=perl
+    title: MpaKus Dominion
+    web: http://mpak666.livejournal.com/tag/perl
+  - url: http://gangleon.livejournal.com/data/atom?tag=perl
+    title: Пыльная книга Ганглеона
+    web: http://gangleon.livejournal.com/tag/perl
+  - url: http://rss.juick.com/teferi/blog
+    title: Zaitsev Kirill (teferi)
+    web: http://juick.com/teferi/?tag=perl
+  - url: http://dcrsmith.blogspot.com/feeds/posts/default/-/Perl
+    title: Бортовой Журнал
+    web: http://dcrsmith.blogspot.com/search/label/Perl
+  - url: http://rss.juick.com/mvuets/blog
+    title: Максим Вуец (mvuets)
+    web: http://juick.com/mvuets/?tag=perl
+  - url: http://feeds.feedburner.com/6-6-6
+    title: Андрей Костенко
+    web: http://kostenko.name/tag/perl/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
