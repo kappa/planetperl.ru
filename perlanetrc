@@ -57,7 +57,7 @@ feeds:
   - url: http://yvision.kz/feed/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl
     title: Язык_Perl | Сообщества на YVISION.KZ
     web: http://yvision.kz/community/%D0%AF%D0%B7%D1%8B%D0%BA_Perl/
-  - url: http://ihrd.livejournal.com/data/atom
+  - url: http://ihrd.livejournal.com/data/atom?tag=perl6,perl
     title: Internal Server Error
     web: http://ihrd.livejournal.com/
   - url: http://xpoint.ru/forums/programming/perl/nursery/newthreads.rss
@@ -78,19 +78,19 @@ feeds:
   - url: http://xpoint.ru/forums/programming/perl/misc/newthreads.rss
     title: XPoint.ru | Программирование::Perl::Разное
     web: http://xpoint.ru/forums/programming/perl/misc/forum.xhtml
-  - url: http://green-kakadu.livejournal.com/data/atom
+  - url: http://green-kakadu.livejournal.com/data/atom?tag=perl
     title: GneZdo
     web: http://green-kakadu.livejournal.com/
-  - url: http://hobohabilis.livejournal.com/data/atom
+  - url: http://hobohabilis.livejournal.com/data/atom?tag=perl
     title: Stupid notes on my fucking life
     web: http://hobohabilis.livejournal.com/
-  - url: http://m-ivanov.livejournal.com/data/atom
+  - url: http://m-ivanov.livejournal.com/data/atom?tag=perl
     title: Чтобы не искать
     web: http://m-ivanov.livejournal.com/
-  - url: http://gerdlerin.livejournal.com/data/atom
+  - url: http://gerdlerin.livejournal.com/data/atom?tag=perl
     title: gerdlerin
     web: http://gerdlerin.livejournal.com/
-  - url: http://bacek.livejournal.com/data/atom
+  - url: http://bacek.livejournal.com/data/atom?tag=perl,parrot
     title: Старое криведко
     web: http://bacek.livejournal.com/
   - url: http://andrey.opeykin.ru/tag/perl-programming/feed/
