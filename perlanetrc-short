@@ -15,6 +15,7 @@ feed:
   format: Atom
   url: http://feeds.feedburner.com/planetperlru
 agent: Perlanet/0.21+ for planetperl.ru
+cache_dir: /tmp/planetperl-cache
 feeds:
   - url: http://habrahabr.ru/rss/blogs/perl/
     title: Великий язык PERL! / Блог / Хабрахабр
