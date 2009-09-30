@@ -39,9 +39,6 @@ feeds:
   - url: http://onperl.ru/onperl/atom.xml
     title: On Perl — блог о языке программирования Perl и его сообществе
     web: http://onperl.ru/
-  - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
-    title: VPF::Perl — Форум программистов
-    web: http://forum.vingrad.ru/forum/Perl-forum.html
   - url: http://www.opennet.ru/opennews/section/31.rss
     title: Мини-портал Perl на Opennet
     web: http://www.opennet.ru/mp/perl/
@@ -292,3 +289,6 @@ more_feeds:
   - url: http://habrahabr.ru/rss/tag/perl/
     title: Хабрахабр: Метки / perl
     web: http://habrahabr.ru/tag/perl/
+  - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
+    title: VPF::Perl — Форум программистов
+    web: http://forum.vingrad.ru/forum/Perl-forum.html

@@ -17,15 +17,14 @@ feed:
 agent: Perlanet/0.21+ for planetperl.ru
 cache_dir: /tmp/planetperl-cache
 feeds:
+  - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
+    title: VPF::Perl — Форум программистов
+    web: http://forum.vingrad.ru/forum/Perl-forum.html
+    filter:
+        type: vingrad
   - url: http://mmcleric2.ya.ru/rss/posts.xml
     title: Вячеслав Матюхин
     web: http://mmcleric2.ya.ru/posts.xml?tag=858503
-    filter:
-      type: category
-      category: perl
-  - url: http://lj.rossia.org/users/igorpashev/data/atom
-    title: Игорь Пашев
-    web: http://lj.rossia.org/users/igorpashev/tag/perl
     filter:
       type: category
       category: perl
