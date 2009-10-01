@@ -286,6 +286,15 @@ feeds:
     filter:
       type: category
       category: perl
+  - url: http://jackal.in/atom.xml
+    title: Блог Джакала
+    web: http://jackal.in/perl/
+    filter:
+      type: category
+      category: perl
+  - url: http://blog.planetperl.ru/atom.xml
+    title: Новости planetperl.ru
+    web: http://blog.planetperl.ru/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
