@@ -105,6 +105,7 @@
 <li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="/btn_addfriend.gif" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
 <li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="/yalenta.gif" border="0" alt="Читать в Яндекс.Ленте" /></a>
 <li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="/twitbut.png" alt="Twitter Button from twitbuttons.com" /></a>
+<li class="module-list-loose"><a href="http://content.mail.ru/cgi-bin/subscribe.cgi?list_id=61365">Подписка по email</a></li>
                         </div>
                      </div>
 
