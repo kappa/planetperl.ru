@@ -18,7 +18,14 @@
 <body class="layout-two-column-left">
    <div id="container">
       <div id="container-inner" class="pkg">
-<!--<div style="position: absolute;"> XXX top100-counter, google analytics</div> -->
+<div style="position: absolute;">
+<!--LiveInternet counter--><script type="text/javascript"><!--
+new Image().src = "http://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random();//--></script><!--/LiveInternet-->
+    </div>
          <div id="banner">
             <div id="banner-inner" class="pkg">
                <h1 id="banner-header"><a href="/" accesskey="1">[% feed.title | html %]</a></h1>
@@ -121,11 +128,27 @@
                      <div class="module">
                         <h2 class="module-header">Приборы</h2>
                         <div class="module-content">
-<!--begin of Top100 logo-->
-<!--end of Top100 logo -->
-
-<!--LiveInternet counter--><!--/LiveInternet-->
-<!-- XXX google analytics -->
+<!-- begin of Top100 logo -->
+<a href="http://top100.rambler.ru/home?id=1878380" target="_blank"><img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width="88" height="31" border="0" /></a>
+<!-- end of Top100 logo -->
+<!--LiveInternet logo--><a href="http://www.liveinternet.ru/click"
+target="_blank"><img src="http://counter.yadro.ru/logo?26.6"
+title="LiveInternet: показано число посетителей за сегодня"
+alt="" border="0" width="88" height="15"/></a>
+<div style="position: absolute;">
+<!-- begin of Top100 code -->
+<script id="top100Counter" type="text/javascript" src="http://counter.rambler.ru/top100.jcn?1878380"></script><noscript><img src="http://counter.rambler.ru/top100.cnt?1878380" alt="" width="1" height="1" border="0"/></noscript>
+<!-- end of Top100 code -->
+<!-- google analytics --><script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-71084-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</div>
                         </div>
                      </div>
 
