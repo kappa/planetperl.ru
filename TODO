@@ -1,9 +1,11 @@
-картинка в FrF и Twitter
-о сайте
-честный санитайзинг
 category filter doesn't work for LJR
 ZAG.RU feed loses date on entries
+о сайте
+картинка в FrF и Twitter
+честный санитайзинг
 фильтры на фиды:
-	- custom s/// (vingrad)
 	- custom grep (убрать комменты с винграда)
 	- m/perl/
+Добавить feed с cpan.perlrussia.ru в качестве второго и в сайдбар
+Добавить винград в сайдбар
+Добавить блок с рекламой от perl community adserver
