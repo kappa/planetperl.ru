@@ -17,21 +17,6 @@ feed:
 agent: Perlanet/0.21+ for planetperl.ru
 cache_dir: /tmp/planetperl-cache
 feeds:
-  - url: http://rss.juick.com/freefd/blog
-    title: Fd (freefd)
-    web: http://juick.com/freefd/?tag=perl
-    filter:
-        - type: category
-          category: perl
-        - type: microblog
-  - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
-    title: VPF::Perl — Форум программистов
-    web: http://forum.vingrad.ru/forum/Perl-forum.html
-    filter:
-        type: vingrad
-  - url: http://mmcleric2.ya.ru/rss/posts.xml
-    title: Вячеслав Матюхин
-    web: http://mmcleric2.ya.ru/posts.xml?tag=858503
-    filter:
-      type: category
-      category: perl
+  - url: http://feeds.feedburner.com/ZagsPersonalBlog
+    title: ZAG.RU
+    web: http://zag.ru/
