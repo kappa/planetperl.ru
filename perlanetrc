@@ -176,7 +176,7 @@ feeds:
       category:
         - Perl
         - PerlCAD
-  - url: http://lj.rossia.org/users/igorpashev/data/atom
+  - url: http://lj.rossia.org/users/igorpashev/data/rss
     title: Игорь Пашев
     web: http://lj.rossia.org/users/igorpashev/tag/perl
     filter:

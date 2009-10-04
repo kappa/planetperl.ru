@@ -17,6 +17,9 @@ feed:
 agent: Perlanet/0.21+ for planetperl.ru
 cache_dir: /tmp/planetperl-cache
 feeds:
-  - url: http://feeds.feedburner.com/ZagsPersonalBlog
-    title: ZAG.RU
-    web: http://zag.ru/
+  - url: http://lj.rossia.org/users/igorpashev/data/rss
+    title: Игорь Пашев
+    web: http://lj.rossia.org/users/igorpashev/tag/perl
+    filter:
+      type: category
+      category: perl
