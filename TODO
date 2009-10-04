@@ -15,16 +15,17 @@
 фильтры на фиды:
 	- custom grep (убрать комменты с винграда)
 	- m/perl/
-Добавить feed с cpan.perlrussia.ru в качестве второго и в сайдбар
+Добавить cpan.perlrussia.ru в сайдбар
 Добавить винград в сайдбар
 http://validator.w3.org/feed/check.cgi?url=http%3A%2F%2Fplanetperl.ru%2Fatom.xml
 Pinger: feedburner and others
+
+Юзерпики/аватары
 
 От Андрея:
     - ближайшие дни в дате: вчера-позавчера и т.д.
 
 Добавить блок с рекламой от perl community adserver
-Плюс блок дружеских ссылок (perlrussia, moscow.pm, cpan.perlrussia.ru)
 
 serious bug in XML::Feed: entries from Atom 0.3 feeds (LJR) cannot be
 inserted into default Atom 1.0 feeds.
