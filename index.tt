@@ -39,19 +39,21 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                   <div id="alpha-inner" class="pkg">
 
                     [% FOREACH entry IN feed.entries %]
+                    [% IF !prev_issued || entry.issued.ymd != prev_issued.ymd %]
                      <h2 class="date-header">[% entry.issued.ymd | html %]</h2>
+                    [% END %]
                      <div class="entry">
                         <h3 class="entry-header"><a href="[% entry.link | html %]">[% entry.title | html %]</a></h3>
                         <div class="entry-content">
                            <div class="entry-body">
                            [% entry.content.body | html_para %]
 
-                            [% IF entry.author OR entry.issued %]
+                           [% IF entry.author OR entry.issued %]
                               <p class="entry-footer">
                                  [% IF entry.author %]<span class="post-footers">Написал [% entry.author | html %]</span>[% IF entry.issued %] <span class="separator">в</span>[% END %][% END %]
-                                 [% IF entry.issued %]<span class="post-footers">[% entry.issued.set_time_zone("Europe/Moscow").strftime("%R") | html %]</span>[% END %]
+                                 [% IF entry.issued %][% prev_issued = entry.issued %]<span class="post-footers">[% entry.issued.set_time_zone("Europe/Moscow").strftime("%R") | html %]</span>[% END %]
                               </p>
-                            [% END %]
+                           [% END %]
 
                            </div>
                         </div>
