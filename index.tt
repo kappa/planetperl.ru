@@ -45,8 +45,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                     [% FOREACH entry IN feed.entries %]
                     [% IF entry.issued && (!prev_issued || entry.issued.ymd != prev_issued.ymd) %]
                      [% issued = entry.issued.set(locale => "ru_RU.UTF-8").set_time_zone("Europe/Moscow")
-                        mon = issued.mon - 1
-                        prev_issued = entry.issued %]
+                        mon = issued.mon - 1 %]
                      <h2 class="date-header">[% issued.strftime("%A, %e-е") | ucfirst | html %] [% ru_EB.$mon | html %]</h2>
                     [% END %]
                      <div class="entry">
@@ -58,7 +57,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                            [% IF entry.author OR entry.issued %]
                               <p class="entry-footer">
                                  [% IF entry.author %]<span class="post-footers">Написал [% entry.author | html %]</span>[% IF entry.issued %] <span class="separator">в</span>[% END %][% END %]
-                                 [% IF entry.issued %]<span class="post-footers">[% issued.strftime("%R") | html %]</span>[% END %]
+                                 [% IF entry.issued %][% prev_issued = entry.issued %]<span class="post-footers">[% issued.strftime("%R") | html %]</span>[% END %]
                               </p>
                            [% END %]
 
