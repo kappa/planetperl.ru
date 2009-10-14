@@ -142,9 +142,6 @@ feeds:
   - url: http://alexander-simakov.blogspot.com/feeds/posts/default/-/perl
     title: Александр Симаков — Perl
     web: http://alexander-simakov.blogspot.com/search/label/perl
-  - url: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp&format=atom
-    title: Alex Kapranoff - перл
-    web: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp
   - url: http://knutov.livejournal.com/data/atom?tag=perl
     title: Меркантильный гуру
     web: http://knutov.livejournal.com/tag/perl
@@ -306,3 +303,6 @@ more_feeds:
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
     web: http://forum.vingrad.ru/forum/Perl-forum.html
+  - url: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp&format=atom
+    title: Alex Kapranoff - перл
+    web: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp
