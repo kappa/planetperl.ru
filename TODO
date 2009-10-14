@@ -30,4 +30,4 @@ Pinger: FeedBurner is done, there are others.
 serious bug in XML::Feed: entries from Atom 0.3 feeds (LJR) cannot be
 inserted into default Atom 1.0 feeds.
 
-ZAG.RU feed loses date on entries (bug in zag.ru feed)
+also, see http://wiki.github.com/ruz/globus/roadmap
