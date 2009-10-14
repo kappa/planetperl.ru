@@ -296,6 +296,9 @@ feeds:
   - url: http://blog.planetperl.ru/atom.xml
     title: Новости planetperl.ru
     web: http://blog.planetperl.ru/
+  - url: http://kkapp.vox.com/library/posts/atom-full.xml
+    title: Алексей Капранов
+    web: http://kkapp.vox.com/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
