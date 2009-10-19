@@ -296,6 +296,15 @@ feeds:
   - url: http://kkapp.vox.com/library/posts/atom-full.xml
     title: Алексей Капранов
     web: http://kkapp.vox.com/
+  - url: http://what-me.livejournal.com/data/atom?tag=perl
+    title: what_me
+    web: http://what-me.livejournal.com/tag/perl
+  - url: http://maxim.vuets.name/blog/rss/
+    title: Максим Вуец
+    web: http://maxim.vuets.name/blog/
+    filter:
+      type: category
+      category: Perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
