@@ -305,6 +305,12 @@ feeds:
     filter:
       type: category
       category: Perl
+  - url: http://drtro.name/feed/atom/
+    title: Школота захватит мир
+    web: http://drtro.name/
+    filter:
+      type: category
+      category: Perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
