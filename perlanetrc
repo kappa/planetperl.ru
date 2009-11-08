@@ -34,7 +34,7 @@ feeds:
   - url: http://sharifulin.livejournal.com/data/atom
     title: Анатолий Шарифулин
     web: http://sharifulin.livejournal.com/tag/perl
-  - url: http://kiev.pm.org/rss.xml
+  - url: http://kiev.pm.org/?q=rss.xml
     title: kiev.pm
     web: http://kiev.pm.org/
   - url: http://onperl.ru/onperl/atom.xml
