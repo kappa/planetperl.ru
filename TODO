@@ -31,3 +31,6 @@ serious bug in XML::Feed: entries from Atom 0.3 feeds (LJR) cannot be
 inserted into default Atom 1.0 feeds.
 
 also, see http://wiki.github.com/ruz/globus/roadmap
+
+трансляция в Juick
+архивирование всех записей(!)
