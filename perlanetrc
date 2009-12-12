@@ -100,9 +100,9 @@ feeds:
   - url: http://andrey.opeykin.ru/tag/perl-programming/feed/
     title: Опейкин Андрей » Perl
     web: http://andrey.opeykin.ru/tag/perl-programming/
-  - url: http://pavel-kudinov.livejournal.com/data/atom
+  - url: http://pavel-kudinov.livejournal.com/data/atom?tag=perl
     title: Павел Кудинов
-    web: http://pavel-kudinov.livejournal.com/
+    web: http://pavel-kudinov.livejournal.com/tag/perl
   - url: http://likhatskiy.livejournal.com/data/atom
     title: Алексей Лихацкий
     web: http://likhatskiy.livejournal.com/
