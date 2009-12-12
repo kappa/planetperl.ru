@@ -25,6 +25,9 @@ feeds:
   - url: http://community.livejournal.com/ru_perl/data/atom
     title: Сообщество ru_perl в LiveJournal
     web: http://community.livejournal.com/ru_perl/
+  - url: http://community.livejournal.com/ru_catalyst/data/atom
+    title: Сообщество ru_catalyst в LiveJournal
+    web: http://community.livejournal.com/ru_catalyst/
   - url: http://moscow.pm.org/rss/
     title: Moscow.pm 2.0
     web: http://moscow.pm.org/
