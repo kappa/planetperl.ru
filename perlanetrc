@@ -19,9 +19,6 @@ agent: Perlanet/0.21+ for planetperl.ru
 cache_dir: /var/db/planetperl-cache
 ping: http://feedburner.google.com/fb/a/pingSubmit?bloglink=http%3A%2F%2Fplanetperl.ru
 feeds:
-  - url: http://habrahabr.ru/rss/blogs/perl/
-    title: Великий язык PERL! / Блог / Хабрахабр
-    web: http://habrahabr.ru/blogs/perl/
   - url: http://community.livejournal.com/ru_perl/data/atom
     title: Сообщество ru_perl в LiveJournal
     web: http://community.livejournal.com/ru_perl/
@@ -311,16 +308,16 @@ feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
     web: http://drtro.name/category/perl/
-more_feeds:
-  - url: http://cpan.perlrussia.ru/Russian/rss.xml
-    title: CPAN uploads by Russian authors
-    web: http://cpan.perlrussia.ru/
   - url: http://habrahabr.ru/rss/tag/perl/
     title: Хабрахабр: Метки / perl
     web: http://habrahabr.ru/tag/perl/
+more_feeds:
+  - url: http://habrahabr.ru/rss/blogs/perl/
+    title: Великий язык PERL! / Блог / Хабрахабр
+    web: http://habrahabr.ru/blogs/perl/
+  - url: http://cpan.perlrussia.ru/Russian/rss.xml
+    title: CPAN uploads by Russian authors
+    web: http://cpan.perlrussia.ru/
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
     web: http://forum.vingrad.ru/forum/Perl-forum.html
-  - url: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp&format=atom
-    title: Alex Kapranoff - перл
-    web: http://friendfeed.com/search?q=%D0%BF%D0%B5%D1%80%D0%BB+from%3Akkapp
