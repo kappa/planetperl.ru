@@ -34,6 +34,13 @@ feeds:
   - url: http://sharifulin.livejournal.com/data/atom
     title: Анатолий Шарифулин
     web: http://sharifulin.livejournal.com/tag/perl
+  - url: http://rss.juick.com/sharifulin/blog
+    title: sharifulin
+    web: http://juick.com/sharifulin/?tag=perl
+    filter:
+      - type: category
+        category: perl
+      - type: microblog
   - url: http://kiev.pm.org/?q=rss.xml
     title: kiev.pm
     web: http://kiev.pm.org/
