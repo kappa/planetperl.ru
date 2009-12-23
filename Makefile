@@ -1,6 +1,6 @@
 PREFIX?= /site/planetperl.ru/www
 
-INSTALL=	cp -f	
+INSTALL=	cp -fp
 
 main:
 	@echo "No default target, sorry"
