@@ -12,7 +12,7 @@
    <link rel="alternate" type="application/atom+xml" title="Модули русских авторов на CPAN" href="http://cpan.perlrussia.ru/Russian/rss.xml" />
    <link rel="outline" type="text/x-opml" title="OPML со всеми блогами" href="[% cfg.url | html %][% cfg.opml | html %]" />
 
-   <link rel="stylesheet" href="styles-site.css" type="text/css" />
+   <link rel="stylesheet" href="planetperl.css" type="text/css" />
 
     <title>[% feed.title | html %]</title>
 </head>
