@@ -128,9 +128,9 @@ feeds:
   - url: http://clubs.ya.ru/4611686018427388089/rss/posts.xml
     title: Perl на ya.ru
     web: http://clubs.ya.ru/4611686018427388089/
-  - url: http://clubs.ya.ru/4611686018427411041/rss/posts.xml
+  - url: http://clubs.ya.ru/regexp/rss/posts.xml
     title: Регулярные выражения на ya.ru
-    web: http://clubs.ya.ru/4611686018427411041/
+    web: http://clubs.ya.ru/regexp/
   - url: http://design-patterns-perl.blogspot.com/feeds/posts/default
     title: Design Patterns in Perl
     web: http://design-patterns-perl.blogspot.com/
