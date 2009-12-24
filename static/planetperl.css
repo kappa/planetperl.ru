@@ -20,19 +20,6 @@ a img { border: 0; }
 
 /* standard helper classes */
 
-.clr
-{
-	clear: both;
-	overflow: hidden;
-	width: 1px;
-	height: 1px;
-	margin: 0 -1px -1px 0;
-	border: 0;
-	padding: 0;
-	font-size: 0;
-	line-height: 0px;
-}
-
 /* .pkg class wraps enclosing block element around inner floated elements */
 .pkg:after
 {
@@ -49,7 +36,6 @@ a img { border: 0; }
 * html .pkg { height: 1%; }
 .pkg { display: block; }
 /* */
-
 
 /* page layout */
 
@@ -77,12 +63,6 @@ body { text-align: center; } /* center on ie */
 }
 
 /* content */
-
-.content-nav
-{
-	margin: 10px;
-	text-align: center;
-}
 
 .date-header,
 .entry-content
@@ -132,41 +112,6 @@ body { text-align: center; } /* center on ie */
 	margin: 5px 10px 20px 10px;
 }
 
-.comments-open label { display: block; }
-
-#comment-author, #comment-email, #comment-url, #comment-text
-{
-	width: 240px;
-}
-
-#comment-bake-cookie
-{
-	margin-left: 0;
-	vertical-align: middle;
-}
-
-#comment-post
-{
-	font-weight: bold;
-}
-
-img.image-full { width: 100%; }
-
-.image-thumbnail
-{
-	float: left;
-	width: 115px;
-	margin: 0 10px 10px 0;
-}
-
-.image-thumbnail img
-{
-	width: 115px;
-	height: 115px;
-	margin: 0 0 2px 0;
-}
-
-
 /* modules */
 
 .module
@@ -182,33 +127,7 @@ img.image-full { width: 100%; }
 	margin: 5px 10px 20px 10px;
 }
 
-.module-list,
-.archive-list
-{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.module-list-item
-{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
 .module-powered .module-content { margin-bottom: 10px; }
-
-.module-calendar .module-content table
-{
-	border-collapse: collapse;
-}
-
-.module-calendar .module-content th,
-.module-calendar .module-content td
-{
-	width: 14%;
-	text-align: center;
-}
 
 a { text-decoration: underline; }
 
@@ -218,27 +137,6 @@ a:active, a:hover { color: #999999;  background-color: #FFFFFF; }
 h1, h2, h3 {
 padding: 0px;
 margin: 0.25em 0;
-}
-
-.xmlbutton {
-color: #FFFFFF !important;
-background-color: #FF6600 !important;
-border-color: #FF6600;
-border-style: outset;
-text-decoration: none !important;
-margin: 2em 0em 2em 0em;
-padding: 0em 0.5em 0em 0.5em;
-border-width: 2px;
-font-size: xx-small;
-font-weight: bold;
-font-family: monospace;
-}
-.xmlbutton:hover {
-color: #FFFFFF !important;
-background-color: #FF9900 !important;
-}
-.xmlbutton:active {
-border-style: inset !important;
 }
 
 /* layout */
@@ -320,21 +218,6 @@ body
 	padding-bottom: 2px;
 }
 
-.trackbacks-header,
-.comments-header,
-.comments-open-header,
-.archive-header
-{
-	margin: 0 0 10px 0;
-	border: 0;
-	
-	color: #333333;
-        background-color: #FFFFFF;
-	font-family: Georgia, Times, serif;
-	font-size: medium;
-	text-align: left;
-}
-
 .entry-header
 {
 	font-family: palatino, georgia, "times new roman", serif;
@@ -374,18 +257,6 @@ body
 	text-align: left;
 }
 
-#comment-author, #comment-email, #comment-url, #comment-text
-{
-	width: 80%;
-}
-
-/* fixes bug in ie win */
-img.image-full
-{
-	width: 100%;
-}
-
-
 /* modules */
 
 .module-header
@@ -415,44 +286,9 @@ img.image-full
 .module-content ul li { margin: 0; }
 .module-list-loose { margin-bottom: 0.5em !important; }
 
-.module-closed-links a {
-        text-decoration: line-through;
-}
-
 .module img { border: 0; }
 
-.module-photo img
-{
-	border: 1px solid #333333;
-}
-
-.module-photo
-{
-	text-align: left;
-}
-
 .module-powered { text-align: left; }
-
-.module-calendar .module-header
-{
-	color: #336600;
-        background-color: #FFFFFF;
-	font-family: Georgia, Times, serif;
-	font-size: small;
-	border: 0;
-	text-align: left;
-
-	text-transform: uppercase;
-
-	letter-spacing: .3em;
-}
-
-.module-calendar th,
-.module-calendar td
-{
-	text-align: center;
-	font-weight: normal;
-}
 
 /* two-column-left tweaks */
 	
