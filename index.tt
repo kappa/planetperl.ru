@@ -152,7 +152,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                         <h2 class="module-header">Приборы</h2>
                         <div class="module-content">
 <!-- begin of Top100 logo -->
-<a href="http://top100.rambler.ru/home?id=1878380" target="_blank"><img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-gray2.gif" alt="Rambler's Top100" width="88" height="31" border="0" /></a>
+<a href="http://top100.rambler.ru/home?id=1878380" target="_blank"><img src="http://perl.takahashi.su/banner-88x31-rambler-gray2.png" alt="Rambler's Top100" width="88" height="31" border="0" /></a>
 <!-- end of Top100 logo -->
 <!--LiveInternet logo--><a href="http://www.liveinternet.ru/click"
 target="_blank"><img src="http://counter.yadro.ru/logo?26.6"
