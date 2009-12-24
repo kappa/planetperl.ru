@@ -122,8 +122,8 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 <li class="module-list-loose">
 <a href="[% cfg.feed.url | html %]" title="Подписаться на RSS"><img src="http://perl.takahashi.su/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>&nbsp;<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS">RSS</a>
 <li class="module-list-loose"><a href="http://friendfeed.com/planetperlru"><img src="http://perl.takahashi.su/frf-chiclet.png" alt="Подписаться на канал FriendFeed" title="Подписаться на канал FriendFeed" width="88" height="17" /></a>
-<li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="http://perl.takahashi.su/btn_addfriend.gif" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
-<li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="http://perl.takahashi.su/yalenta.gif" border="0" alt="Читать в Яндекс.Ленте" width="100" height="22" /></a>
+<li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="http://perl.takahashi.su/btn_addfriend.png" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
+<li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="http://perl.takahashi.su/yalenta.png" border="0" alt="Читать в Яндекс.Ленте" width="100" height="22" /></a>
 <li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="http://perl.takahashi.su/twitbut.png" alt="Twitter Button from twitbuttons.com" width="104" height="12" /></a>
 <li class="module-list-loose"><a href="http://content.mail.ru/cgi-bin/subscribe.cgi?list_id=61365">Подписка по email</a></li>
                         </div>
