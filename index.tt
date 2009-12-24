@@ -12,7 +12,7 @@
    <link rel="alternate" type="application/atom+xml" title="Модули русских авторов на CPAN" href="http://cpan.perlrussia.ru/Russian/rss.xml" />
    <link rel="outline" type="text/x-opml" title="OPML со всеми блогами" href="[% cfg.url | html %][% cfg.opml | html %]" />
 
-   <link rel="stylesheet" href="planetperl.css" type="text/css" />
+   <link rel="stylesheet" href="http://perl.takahashi.su/planetperl.css" type="text/css" />
 
     <title>[% feed.title | html %]</title>
 </head>
@@ -110,7 +110,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                         <li class="module-list-loose"><a href="[% col.web | html %]">[% col.title %]</a>
                         [% END %]
                         </ul>
-                        <p><a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]"><img src="/opml-icon-16x16.png" border="0" width="16" height="16"></a>&nbsp;<a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]">OPML</a></p>
+                        <p><a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]"><img src="http://perl.takahashi.su/opml-icon-16x16.png" border="0" width="16" height="16"></a>&nbsp;<a title="Скачать список участников в OPML" href="[% cfg.url | html %][% cfg.opml | html %]">OPML</a></p>
                         <p><a href="https://spreadsheets.google.com/viewform?formkey=dC04aFdpaXJWeXdPSlVvU3llSnptcmc6MA">Добавить сайт</a></p>
                         </div>
                      </div>
@@ -120,11 +120,11 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                         <div class="module-content">
 <ul>
 <li class="module-list-loose">
-<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS"><img src="/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>&nbsp;<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS">RSS</a>
-<li class="module-list-loose"><a href="http://friendfeed.com/planetperlru"><img src="/frf-chiclet.png" alt="Подписаться на канал FriendFeed" title="Подписаться на канал FriendFeed" width="88" height="17" /></a>
-<li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="/btn_addfriend.gif" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
-<li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="/yalenta.gif" border="0" alt="Читать в Яндекс.Ленте" width="100" height="22" /></a>
-<li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="/twitbut.png" alt="Twitter Button from twitbuttons.com" width="104" height="12" /></a>
+<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS"><img src="http://perl.takahashi.su/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>&nbsp;<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS">RSS</a>
+<li class="module-list-loose"><a href="http://friendfeed.com/planetperlru"><img src="http://perl.takahashi.su/frf-chiclet.png" alt="Подписаться на канал FriendFeed" title="Подписаться на канал FriendFeed" width="88" height="17" /></a>
+<li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="http://perl.takahashi.su/btn_addfriend.gif" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a>
+<li><a href="http://lenta.yandex.ru/settings.xml?name=feed&url=[% cfg.feed.url | url | html %]"><img src="http://perl.takahashi.su/yalenta.gif" border="0" alt="Читать в Яндекс.Ленте" width="100" height="22" /></a>
+<li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="http://perl.takahashi.su/twitbut.png" alt="Twitter Button from twitbuttons.com" width="104" height="12" /></a>
 <li class="module-list-loose"><a href="http://content.mail.ru/cgi-bin/subscribe.cgi?list_id=61365">Подписка по email</a></li>
                         </div>
                      </div>
@@ -133,7 +133,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                         <h2 class="module-header">Ссылки</h2>
                         <div class="module-content">
                         <ul>
-                        <li class="module-list-loose"><a href="http://cpan.perlrussia.ru/Russian/">Русские авторы на CPAN</a>&nbsp;<a href="http://cpan.perlrussia.ru/Russian/rss.xml" title="RSS"><img src="/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>
+                        <li class="module-list-loose"><a href="http://cpan.perlrussia.ru/Russian/">Русские авторы на CPAN</a>&nbsp;<a href="http://cpan.perlrussia.ru/Russian/rss.xml" title="RSS"><img src="http://perl.takahashi.su/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>
                         <li class="module-list-loose"><a href="http://moscow.pm.org">Московские Перлмонгеры</a>
                         <li class="module-list-loose"><a href="http://perlrussia.ru">Русскоязычные Perl-мероприятия</a>
                         </div>
