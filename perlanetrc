@@ -128,9 +128,9 @@ feeds:
   - url: http://clubs.ya.ru/4611686018427388089/rss/posts.xml
     title: Perl на ya.ru
     web: http://clubs.ya.ru/4611686018427388089/
-  - url: http://clubs.ya.ru/4611686018427411041/rss/posts.xml
+  - url: http://clubs.ya.ru/regexp/rss/posts.xml
     title: Регулярные выражения на ya.ru
-    web: http://clubs.ya.ru/4611686018427411041/
+    web: http://clubs.ya.ru/regexp/
   - url: http://design-patterns-perl.blogspot.com/feeds/posts/default
     title: Design Patterns in Perl
     web: http://design-patterns-perl.blogspot.com/
@@ -315,9 +315,9 @@ feeds:
   - url: http://habrahabr.ru/rss/tag/perl/
     title: Хабрахабр: Метки / perl
     web: http://habrahabr.ru/tag/perl/
-  - url: http://ru.ivan.fomichev.name/feeds/posts/default?alt=rss
+  - url: http://ru.ivan.fomichev.name/feeds/posts/default/-/perl?alt=rss
     title: Кодекс кодоголика
-    web: http://ru.ivan.fomichev.name/
+    web: http://ru.ivan.fomichev.name/search/label/perl
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
