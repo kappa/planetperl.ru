@@ -36,7 +36,7 @@ body{margin:0;color:#333;background:#fff;font-family:Georgia,Times,serif;font-we
 #banner-header{font-family:palatino,georgia,verdana,arial,sans-serif;font-size:x-large;margin:.5em 0;}
 #banner-description{font-family:palatino,georgia,"times new roman",serif;color:#333;font-size:small;text-transform:none;font-weight:normal;background-color:#fff;}
 .date-header{font-family:palatino,georgia,"times new roman",serif;font-size:large;color:#333;background-color:#fff;border-bottom:1px solid #999;font-weight:bold;padding-bottom:2px;}
-.entry-header{font-family:palatino,georgia,"times new roman",serif;font-size:medium;line-height:140% color:#666;background-color:#fff;}
+.entry-header{font-family:palatino,georgia,"times new roman",serif;font-size:medium;line-height:140%;color:#666;background-color:#fff;}
 .entry-content,.entry-footer{margin:10px 0;}
 .entry-content p{text-align:left;}
 .entry-footer{margin:0 0 10px 0;border:0;color:#000;background-color:#fff;font-family:Verdana,Arial,sans-serif;font-size:x-small;line-height:normal;text-align:left;}
