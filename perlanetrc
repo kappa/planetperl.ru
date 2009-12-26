@@ -318,6 +318,9 @@ feeds:
   - url: http://ru.ivan.fomichev.name/feeds/posts/default/-/perl?alt=rss
     title: Кодекс кодоголика
     web: http://ru.ivan.fomichev.name/search/label/perl
+  - url: http://allframeworks.ru/rss/tag/Perl/
+    title: allframeworks / Perl
+    web: http://allframeworks.ru/tag/Perl/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
