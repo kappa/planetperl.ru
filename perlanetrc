@@ -321,6 +321,15 @@ feeds:
   - url: http://allframeworks.ru/rss/tag/Perl/
     title: allframeworks / Perl
     web: http://allframeworks.ru/tag/Perl/
+  - url: http://ky6uk.ugatu.net/category/programming/perl-programming/feed
+    title: Perl | Ky6uk's Blog
+    web: http://ky6uk.ugatu.net/category/programming/perl-programming
+  - url: http://groups.google.com/group/fido7.ru.perl/feed/atom_v1_0_topics.xml
+    title: Fidonet RU.PERL
+    web: http://groups.google.com/group/fido7.ru.perl/topics
+    filter:
+        type: author-v
+        re: "Moderator of RU.PERL"
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
