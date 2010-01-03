@@ -330,6 +330,13 @@ feeds:
     filter:
         type: author-v
         re: "Moderator of RU.PERL"
+  - url: http://rss.juick.com/und3f/blog
+    title: und3f
+    web: http://juick.com/und3f/?tag=perl
+    filter:
+      - type: category
+        category: perl
+      - type: microblog
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
