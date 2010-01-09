@@ -337,6 +337,9 @@ feeds:
       - type: category
         category: perl
       - type: microblog
+  - url: http://eax.me/category/programming/perl/feed/
+    title: Записки программиста — Perl
+    web: http://eax.me/category/programming/perl/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
