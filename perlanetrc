@@ -340,6 +340,9 @@ feeds:
   - url: http://eax.me/category/programming/perl/feed/
     title: Записки программиста — Perl
     web: http://eax.me/category/programming/perl/
+  - url: http://kaimi.ru/category/perl/feed/
+    title: perl | Misc
+    web: http://kaimi.ru/category/perl/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
