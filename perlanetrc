@@ -229,9 +229,6 @@ feeds:
   - url: http://simply-a-man.livejournal.com/data/atom?tag=perl
     title: Две стороны одной медали
     web: http://simply-a-man.livejournal.com/tag/perl
-  - url: http://blog.alpha6.ru/?feed=rss2&tag=perl
-    title: alpha6 blog
-    web: http://blog.alpha6.ru/?tag=perl
   - url: http://max.bukurov.ru/feed/?tag=perl
     title: Блог Максима Букурова » perl
     web: http://max.bukurov.ru/tag/perl/
