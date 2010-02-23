@@ -343,6 +343,14 @@ feeds:
   - url: http://www.koorchik.name/stati-1/perl-tips/posts.xml
     title: koorchik's Perl blog
     web: http://www.koorchik.name/stati-1/perl-tips
+  - url: http://twitter.com/statuses/user_timeline/114726031.rss
+    title: yapcrussia twitter
+    web: http://twitter.com/yapcrussia
+    filter:
+      - type: microblog
+  - url: http://blog.perl5doc.ru/atom.xml
+    title: Blog.Perl5doc.ru
+    web: http://blog.perl5doc.ru/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
