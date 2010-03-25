@@ -351,6 +351,9 @@ feeds:
   - url: http://blog.perl5doc.ru/atom.xml
     title: Blog.Perl5doc.ru
     web: http://blog.perl5doc.ru/
+  - url: http://isokolov.blogspot.com/feeds/posts/default
+    title: Заметки обычного перловика
+    web: http://isokolov.blogspot.com/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
