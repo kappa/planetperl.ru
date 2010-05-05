@@ -361,6 +361,9 @@ feeds:
       type: category
       category:
         - perl
+  - url: http://blog.seoplus.biz/?feed=rss2
+    title: Переводные статьи про Perl
+    web: http://blog.seoplus.biz/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
