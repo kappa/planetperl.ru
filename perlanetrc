@@ -110,9 +110,9 @@ feeds:
   - url: http://likhatskiy.livejournal.com/data/atom
     title: Алексей Лихацкий
     web: http://likhatskiy.livejournal.com/
-  - url: http://community.livejournal.com/ru_perlfuck/data/atom
-    title: Perlfuck Cookbook
-    web: http://community.livejournal.com/ru_perlfuck/
+#  - url: http://community.livejournal.com/ru_perlfuck/data/atom
+#    title: Perlfuck Cookbook
+#    web: http://community.livejournal.com/ru_perlfuck/
   - url: http://feeds.feedburner.com/ZagsPersonalBlog
     title: ZAG.RU
     web: http://zag.ru/
@@ -364,6 +364,9 @@ feeds:
   - url: http://blog.seoplus.biz/?feed=rss2
     title: Переводные статьи про Perl
     web: http://blog.seoplus.biz/
+  - url: http://russianspy.ya.ru/rss/posts.xml?tag=6198095
+    title: flamey
+    web: http://russianspy.ya.ru/posts.xml?tag=6198095
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
