@@ -367,6 +367,13 @@ feeds:
   - url: http://russianspy.ya.ru/rss/posts.xml?tag=6198095
     title: flamey
     web: http://russianspy.ya.ru/posts.xml?tag=6198095
+  - url: http://rss.juick.com/spleenjack/blog
+    title: Eugene Ardarov
+    web: http://juick.com/spleenjack/?tag=perl
+    filter:
+      - type: category
+        category: perl
+      - type: microblog
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
