@@ -173,7 +173,7 @@ feeds:
       category:
         - perl
         - PerlCAD
-  - url: http://ejikblog.ru/?feed=atom
+  - url: http://ejikblog.ru/rss.xml
     title: Ежинный блог
     web: http://ejikblog.ru/
     filter:
@@ -374,6 +374,18 @@ feeds:
       - type: category
         category: perl
       - type: microblog
+  - url: http://feeds.feedburner.com/DoersBlog
+    title: Doer's blog
+    web: http://doer.name/
+    filter:
+      type: category
+      category: perl
+  - url: http://blog.perl6doc.ru/atom.xml
+    title: Blog.Perl6doc.ru
+    web: http://blog.perl6doc.ru/
+  - url: http://perl6.su/news.rss
+    title: Освоим perl 6 к 2015 году!
+    web: http://perl6.su
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
