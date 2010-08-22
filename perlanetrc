@@ -16,7 +16,7 @@ feed:
   format: Atom
   url: http://feeds.feedburner.com/planetperlru
 agent: Perlanet/0.21+ for planetperl.ru
-cache_dir: /var/db/planetperl-cache
+cache_dir: /home/kappa/work/planetperl.ru/cache
 ping: http://feedburner.google.com/fb/a/pingSubmit?bloglink=http%3A%2F%2Fplanetperl.ru
 feeds:
   - url: http://community.livejournal.com/ru_perl/data/atom
