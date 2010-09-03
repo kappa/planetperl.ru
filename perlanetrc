@@ -383,6 +383,13 @@ feeds:
   - url: http://perl6.su/news.rss
     title: Освоим perl 6 к 2015 году!
     web: http://perl6.su
+  - url: http://dynax60.blogspot.com/feeds/posts/default
+    title: Всякие заметочки
+    web: http://dynax60.blogspot.com/
+    filter:
+      type: category
+      category:
+        - mojo
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
