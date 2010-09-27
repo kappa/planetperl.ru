@@ -101,9 +101,9 @@ feeds:
   - url: http://bacek.livejournal.com/data/atom?tag=perl,parrot
     title: Старое криведко
     web: http://bacek.livejournal.com/tag/perl,parrot
-  - url: http://andrey.opeykin.ru/tag/perl-programming/feed/
+  - url: http://andrey.opeykin.ru/blog/tag/perl-programming/feed/
     title: Опейкин Андрей » Perl
-    web: http://andrey.opeykin.ru/tag/perl-programming/
+    web: http://andrey.opeykin.ru/blog/tag/perl-programming/
   - url: http://pavel-kudinov.livejournal.com/data/atom?tag=perl
     title: Павел Кудинов
     web: http://pavel-kudinov.livejournal.com/tag/perl
