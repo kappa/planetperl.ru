@@ -375,6 +375,9 @@ feeds:
       type: category
       category:
         - mojo
+  - url: http://alienator.ya.ru/rss/posts.xml?tag=5572461
+    title: علي (Али)
+    web: http://alienator.ya.ru/posts.xml?tag=5572461
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
