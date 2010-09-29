@@ -233,12 +233,9 @@ feeds:
   - url: http://grey-olli.livejournal.com/data/atom?tag=perl
     title: grey_olli
     web: http://grey-olli.livejournal.com/tag/perl
-  - url: http://mmcleric2.ya.ru/rss/posts.xml
+  - url: http://mmcleric2.ya.ru/rss/posts.xml?tag=858503
     title: Вячеслав Матюхин
     web: http://mmcleric2.ya.ru/posts.xml?tag=858503
-    filter:
-      type: category
-      category: perl
   - url: http://blinohod.livejournal.com/data/atom?tag=perl
     title: Rattler lives here...
     web: http://blinohod.livejournal.com/tag/perl
@@ -343,13 +340,9 @@ feeds:
   - url: http://isokolov.blogspot.com/feeds/posts/default
     title: Заметки обычного перловика
     web: http://isokolov.blogspot.com/
-  - url: http://ixpict.ya.ru/rss/posts.xml
+  - url: http://ixpict.ya.ru/rss/posts.xml?tag=7642392
     title: ixpict
     web: http://ixpict.ya.ru/posts.xml?tag=7642392
-    filter:
-      type: category
-      category:
-        - perl
   - url: http://blog.seoplus.biz/?feed=rss2
     title: Переводные статьи про Perl
     web: http://blog.seoplus.biz/
