@@ -165,14 +165,6 @@ feeds:
   - url: http://gark-87.livejournal.com/data/atom?tag=perl
     title: Everybody lies
     web: http://gark-87.livejournal.com/tag/perl
-  - url: http://ejik-02.ya.ru/rss/posts.xml
-    title: Ёжик
-    web: http://ejik-02.ya.ru/posts.xml?tag=5081766
-    filter:
-      type: category
-      category:
-        - perl
-        - PerlCAD
   - url: http://ejikblog.ru/rss.xml
     title: Ежинный блог
     web: http://ejikblog.ru/
