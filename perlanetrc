@@ -367,6 +367,9 @@ feeds:
   - url: http://slonik-v-domene.livejournal.com/data/atom?tag=perl
     title: Убей в себе государство
     web: http://slonik-v-domene.livejournal.com/tag/perl
+  - url: http://perlgament.wordpress.com/feed/
+    title: Perlgament
+    web: http://perlgament.wordpress.com/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
