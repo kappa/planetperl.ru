@@ -110,10 +110,7 @@ feeds:
   - url: http://likhatskiy.livejournal.com/data/atom
     title: Алексей Лихацкий
     web: http://likhatskiy.livejournal.com/
-#  - url: http://community.livejournal.com/ru_perlfuck/data/atom
-#    title: Perlfuck Cookbook
-#    web: http://community.livejournal.com/ru_perlfuck/
-  - url: http://feeds.feedburner.com/ZagsPersonalBlog
+  - url: http://feeds.feedburner.com/PerlZagPersonalBlog
     title: ZAG.RU
     web: http://zag.ru/
   - url: http://dzhariy.blogspot.com/feeds/posts/default
@@ -165,14 +162,6 @@ feeds:
   - url: http://gark-87.livejournal.com/data/atom?tag=perl
     title: Everybody lies
     web: http://gark-87.livejournal.com/tag/perl
-  - url: http://ejikblog.ru/rss.xml
-    title: Ежинный блог
-    web: http://ejikblog.ru/
-    filter:
-      type: category
-      category:
-        - Perl
-        - PerlCAD
   - url: http://lj.rossia.org/users/igorpashev/data/rss
     title: Игорь Пашев
     web: http://lj.rossia.org/users/igorpashev/tag/perl
@@ -343,9 +332,6 @@ feeds:
   - url: http://ixpict.ya.ru/rss/posts.xml?tag=7642392
     title: ixpict
     web: http://ixpict.ya.ru/posts.xml?tag=7642392
-  - url: http://blog.seoplus.biz/?feed=rss2
-    title: Переводные статьи про Perl
-    web: http://blog.seoplus.biz/
   - url: http://russianspy.ya.ru/rss/posts.xml?tag=6198095
     title: flamey
     web: http://russianspy.ya.ru/posts.xml?tag=6198095
@@ -378,6 +364,9 @@ feeds:
   - url: http://alienator.ya.ru/rss/posts.xml?tag=5572461
     title: علي (Али)
     web: http://alienator.ya.ru/posts.xml?tag=5572461
+  - url: http://slonik-v-domene.livejournal.com/data/atom?tag=perl
+    title: Убей в себе государство
+    web: http://slonik-v-domene.livejournal.com/tag/perl
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
@@ -391,3 +380,14 @@ more_feeds:
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
     web: http://forum.vingrad.ru/forum/Perl-forum.html
+  - url: http://ejikblog.ru/rss.xml
+    title: Ежинный блог
+    web: http://ejikblog.ru/
+    filter:
+      type: category
+      category:
+        - Perl
+        - PerlCAD
+  - url: http://blog.seoplus.biz/?feed=rss2
+    title: Переводные статьи про Perl
+    web: http://blog.seoplus.biz/
