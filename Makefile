@@ -17,3 +17,6 @@ symlinks::
 	@${LNS} ${CURDIR}/cse_links.html ${PREFIX}
 	@${LNS} ${CURDIR}/atom.xml ${PREFIX}
 	@${LNS} ${CURDIR}/planetperlru.opml ${PREFIX}
+
+force::
+	perl -I ../perlanet/lib ../perlanet/bin/perlanet
