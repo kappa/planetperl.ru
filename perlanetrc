@@ -370,6 +370,9 @@ feeds:
   - url: http://perlgament.wordpress.com/feed/
     title: Perlgament
     web: http://perlgament.wordpress.com/
+  - url: http://zibtsev.name/category/computer/perl/feed/
+    title: Зибцев Владимир
+    web: http://zibtsev.name/category/computer/perl/
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
