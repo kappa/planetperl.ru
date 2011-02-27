@@ -140,9 +140,6 @@ feeds:
   - url: http://d11he11.livejournal.com/data/atom?tag=perl
     title: i-t-шные заметки
     web: http://d11he11.livejournal.com/tag/perl
-  - url: http://govnokod.ru/perl/rss
-    title: Perl — Говнокод.ру
-    web: http://govnokod.ru/perl
   - url: http://alexander-simakov.blogspot.com/feeds/posts/default/-/perl
     title: Александр Симаков — Perl
     web: http://alexander-simakov.blogspot.com/search/label/perl
@@ -373,6 +370,12 @@ feeds:
   - url: http://zibtsev.name/category/computer/perl/feed/
     title: Зибцев Владимир
     web: http://zibtsev.name/category/computer/perl/
+  - url: http://hashcode.ru/tags/perl/?type=rss
+    title: Perl на hashcode.ru
+    web: http://hashcode.ru/tags/perl/
+  - url: http://www.meettya.ru/feeds/posts/default/-/perl?alt=rss
+    title: meettya.ru
+    web: http://www.meettya.ru/search/label/perl
 more_feeds:
   - url: http://drtro.name/category/perl/feed/
     title: Школота захватит мир
@@ -397,3 +400,6 @@ more_feeds:
   - url: http://blog.seoplus.biz/?feed=rss2
     title: Переводные статьи про Perl
     web: http://blog.seoplus.biz/
+  - url: http://govnokod.ru/perl/rss
+    title: Perl — Говнокод.ру
+    web: http://govnokod.ru/perl
