@@ -101,9 +101,6 @@ feeds:
   - url: http://bacek.livejournal.com/data/atom?tag=perl,parrot
     title: Старое криведко
     web: http://bacek.livejournal.com/tag/perl,parrot
-  - url: http://andrey.opeykin.ru/category/perl-programming/feed/
-    title: Опейкин Андрей » Perl
-    web: http://andrey.opeykin.ru/category/perl-programming/
   - url: http://pavel-kudinov.livejournal.com/data/atom?tag=perl
     title: Павел Кудинов
     web: http://pavel-kudinov.livejournal.com/tag/perl
@@ -171,9 +168,6 @@ feeds:
     filter:
       type: category
       category: perl
-  - url: http://gwinnblade.livejournal.com/data/atom?tag=perl
-    title: Gwynn's Journal
-    web: http://gwinnblade.livejournal.com/tag/perl
   - url: http://static.diary.ru/userdir/1/3/1/9/1319529/rss.xml
     title: дневники — Lucifer's
     web: http://www.diary.ru/~alexusblack/
@@ -376,30 +370,19 @@ feeds:
   - url: http://www.meettya.ru/feeds/posts/default/-/perl?alt=rss
     title: meettya.ru
     web: http://www.meettya.ru/search/label/perl
-more_feeds:
-  - url: http://drtro.name/category/perl/feed/
-    title: Школота захватит мир
-    web: http://drtro.name/category/perl/
-  - url: http://habrahabr.ru/rss/blogs/perl/
-    title: Великий язык PERL! / Блог / Хабрахабр
-    web: http://habrahabr.ru/blogs/perl/
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
     web: http://cpan.perlrussia.ru/
+  - url: http://creograf.ru/txt/blog2.rss
+    title: Creograf - perl
+    web: http://creograf.ru/post/tag/51
+more_feeds:
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
     web: http://forum.vingrad.ru/forum/Perl-forum.html
-  - url: http://ejikblog.ru/rss.xml
-    title: Ежинный блог
-    web: http://ejikblog.ru/
-    filter:
-      type: category
-      category:
-        - Perl
-        - PerlCAD
-  - url: http://blog.seoplus.biz/?feed=rss2
-    title: Переводные статьи про Perl
-    web: http://blog.seoplus.biz/
   - url: http://govnokod.ru/perl/rss
     title: Perl — Говнокод.ру
     web: http://govnokod.ru/perl
+  - url: http://andrey.opeykin.ru/category/perl-programming/feed/
+    title: Опейкин Андрей » Perl
+    web: http://andrey.opeykin.ru/category/perl-programming/
