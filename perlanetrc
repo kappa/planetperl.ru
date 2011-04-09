@@ -143,9 +143,6 @@ feeds:
   - url: http://knutov.livejournal.com/data/atom?tag=perl
     title: Меркантильный гуру
     web: http://knutov.livejournal.com/tag/perl
-  - url: http://community.livejournal.com/ru_catalyst/data/atom
-    title: Catalyst Web Framework
-    web: http://community.livejournal.com/ru_catalyst/
   - url: http://rss.juick.com/freefd/blog
     title: Fd (freefd)
     web: http://juick.com/freefd/?tag=perl
