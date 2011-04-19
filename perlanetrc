@@ -373,6 +373,9 @@ feeds:
   - url: http://creograf.ru/txt/blog2.rss
     title: Creograf - perl
     web: http://creograf.ru/post/tag/51
+  - url: http://broflovski.posterous.com/rss.xml?tag=perl
+    title: Блог начинающего лыря
+    web: http://broflovski.posterous.com/tag/perl
 more_feeds:
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
