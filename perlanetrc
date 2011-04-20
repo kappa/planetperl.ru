@@ -373,6 +373,9 @@ feeds:
   - url: http://creograf.ru/txt/blog2.rss
     title: Creograf - perl
     web: http://creograf.ru/post/tag/51
+  - url: http://antonfin.blogspot.com/feeds/posts/default
+    title: antonfin's blog
+    web: http://antonfin.blogspot.com/
 more_feeds:
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
