@@ -99,6 +99,16 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                      </div>
 
                      <div class="module">
+                        <h2 class="module-header">Реклама</h2>
+                        <div class="module-content">
+
+<ul>
+<li><a href="http://devconf.ru/perl">DevConf 2011</a></li>
+</ul>
+                        </div>
+                     </div>
+
+                     <div class="module">
                         <h2 class="module-header">Поиск</h2>
                         <div class="module-content">
 <form action="http://www.google.com/cse" id="cse-search-box">
