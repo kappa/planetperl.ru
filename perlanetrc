@@ -31,16 +31,9 @@ feeds:
   - url: http://perl6.ru/rss/
     title: Perl6.ru
     web: http://perl6.ru
-  - url: http://sharifulin.livejournal.com/data/atom
+  - url: http://sharifulin.posterous.com/rss.xml?tag=perl
     title: Анатолий Шарифулин
-    web: http://sharifulin.livejournal.com/tag/perl
-  - url: http://rss.juick.com/sharifulin/blog
-    title: sharifulin
-    web: http://juick.com/sharifulin/?tag=perl
-    filter:
-      - type: category
-        category: perl
-      - type: microblog
+    web: http://sharifulin.posterous.com/tag/perl
   - url: http://kiev.pm.org/?q=rss.xml
     title: kiev.pm
     web: http://kiev.pm.org/
