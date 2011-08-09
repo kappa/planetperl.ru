@@ -379,6 +379,12 @@ feeds:
   - url: http://broflovski.posterous.com/rss.xml?tag=perl
     title: Блог начинающего лыря
     web: http://broflovski.posterous.com/tag/perl
+  - url: http://sontan.name/blog/rss/perl
+    title: sontan.name
+    web: http://sontan.name/blog/view/perl
+  - url: http://afiskon.blogspot.com/feeds/posts/default/-/%D0%9F%D0%B5%D1%80%D0%BB
+    title: Онлайновый памятезаменитель
+    web: http://afiskon.blogspot.com/search/label/%D0%9F%D0%B5%D1%80%D0%BB
 more_feeds:
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
