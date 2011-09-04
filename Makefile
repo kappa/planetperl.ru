@@ -18,5 +18,8 @@ symlinks::
 	@${LNS} ${CURDIR}/atom.xml ${PREFIX}
 	@${LNS} ${CURDIR}/planetperlru.opml ${PREFIX}
 
+nginx:
+	@${LNS} ${CURDIR}/nginx.conf /etc/nginx/sites-enabled/planetperl.ru
+
 force::
 	perl -I ../perlanet/lib ../perlanet/bin/perlanet
