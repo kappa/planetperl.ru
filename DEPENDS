@@ -1,0 +1,3 @@
+sudo aptitude install build-essential libxml2-dev libexpat-dev
+curl -L http://cpanmin.us | sudo perl - --self-upgrade
+sudo cpanm Moose URI::Fetch XML::Feed Template YAML Alien::Tidyp HTML::Tidy HTML::Scrubber CHI XML::OPML::SimpleGen
