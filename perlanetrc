@@ -360,9 +360,6 @@ feeds:
   - url: http://www.meettya.ru/feeds/posts/default/-/perl?alt=rss
     title: meettya.ru
     web: http://www.meettya.ru/search/label/perl
-  - url: http://cpan.perlrussia.ru/Russian/rss.xml
-    title: CPAN uploads by Russian authors
-    web: http://cpan.perlrussia.ru/
   - url: http://creograf.ru/txt/blog2.rss
     title: Creograf - perl
     web: http://creograf.ru/post/tag/51
@@ -378,7 +375,19 @@ feeds:
   - url: http://afiskon.blogspot.com/feeds/posts/default/-/%D0%9F%D0%B5%D1%80%D0%BB
     title: Онлайновый памятезаменитель
     web: http://afiskon.blogspot.com/search/label/%D0%9F%D0%B5%D1%80%D0%BB
+  - url: http://www.perl-dev.ws/feeds/posts/default/-/perl
+    title: Perl Dev
+    web: http://www.perl-dev.ws/search/label/perl
+  - url: http://notsugar0.livejournal.com/data/atom?tag=perl
+    title: Очередные записки еще одного айтишника
+    web: http://notsugar0.livejournal.com/tag/perl
+  - url: http://eugene-toropov.livejournal.com/data/atom?tag=perl
+    title: Обо всем и сразу
+    web: http://eugene-toropov.livejournal.com/tag/perl
 more_feeds:
+  - url: http://cpan.perlrussia.ru/Russian/rss.xml
+    title: CPAN uploads by Russian authors
+    web: http://cpan.perlrussia.ru/
   - url: http://forum.vingrad.ru/forum/rss/forums/595.xml
     title: VPF::Perl — Форум программистов
     web: http://forum.vingrad.ru/forum/Perl-forum.html
