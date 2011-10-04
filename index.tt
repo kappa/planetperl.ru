@@ -31,6 +31,20 @@
    <div id="container">
       <div id="container-inner" class="pkg">
 <div style="position: absolute;">
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+(function(w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter10059763 = new Ya.Metrika({id:10059763, enableAll: true});
+        }
+        catch(e) { }
+    });
+})(window, "yandex_metrika_callbacks");
+</script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/10059763" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
 <!--LiveInternet counter--><script type="text/javascript"><!--
 new Image().src = "http://counter.yadro.ru/hit?r"+
 escape(document.referrer)+((typeof(screen)=="undefined")?"":
