@@ -384,6 +384,9 @@ feeds:
   - url: http://eugene-toropov.livejournal.com/data/atom?tag=perl
     title: Обо всем и сразу
     web: http://eugene-toropov.livejournal.com/tag/perl
+  - url: http://xryundel.livejournal.com/data/atom?tag=perl
+    title: Заварин Юра
+    web: http://xryundel.livejournal.com/tag/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
