@@ -390,6 +390,9 @@ feeds:
   - url: http://shootnix.com/rss.xml?tag=perl
     title: shootnix's posterous
     web: http://shootnix.com/tag/perl
+  - url: http://www.feofilaktov.ru/category/perl/feed
+    title: Сайт Ивана Феофилактова
+    web: http://www.feofilaktov.ru/category/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
