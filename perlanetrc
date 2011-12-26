@@ -274,9 +274,6 @@ feeds:
   - url: http://allframeworks.ru/rss/tag/Perl/
     title: allframeworks / Perl
     web: http://allframeworks.ru/tag/Perl/
-  - url: http://ky6uk.ugatu.net/category/programming/perl-programming/feed
-    title: Perl | Ky6uk's Blog
-    web: http://ky6uk.ugatu.net/category/programming/perl-programming
   - url: http://groups.google.com/group/fido7.ru.perl/feed/atom_v1_0_topics.xml
     title: Fidonet RU.PERL
     web: http://groups.google.com/group/fido7.ru.perl/topics
@@ -351,15 +348,12 @@ feeds:
   - url: http://perlgament.wordpress.com/feed/
     title: Perlgament
     web: http://perlgament.wordpress.com/
-  - url: http://zibtsev.name/category/computer/perl/feed/
+  - url: http://zibtsev.name/?feed=rss2&cat=24
     title: Зибцев Владимир
-    web: http://zibtsev.name/category/computer/perl/
+    web: http://zibtsev.name/?cat=24
   - url: http://hashcode.ru/tags/perl/?type=rss
     title: Perl на hashcode.ru
     web: http://hashcode.ru/tags/perl/
-  - url: http://www.meettya.ru/feeds/posts/default/-/perl?alt=rss
-    title: meettya.ru
-    web: http://www.meettya.ru/search/label/perl
   - url: http://creograf.ru/txt/blog2.rss
     title: Creograf - perl
     web: http://creograf.ru/post/tag/51
@@ -390,6 +384,12 @@ feeds:
   - url: http://niskam.livejournal.com/data/atom?tag=perl
     title: Валерий Студенников
     web: http://niskam.livejournal.com/tag/perl
+  - url: http://meettya.ru/rss.xml?tag=perl
+    title: Meettya's posterous
+    web: http://meettya.ru/tag/perl
+  - url: http://shootnix.com/rss.xml?tag=perl
+    title: shootnix's posterous
+    web: http://shootnix.com/tag/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -403,3 +403,6 @@ more_feeds:
   - url: http://andrey.opeykin.ru/category/perl-programming/feed/
     title: Опейкин Андрей » Perl
     web: http://andrey.opeykin.ru/category/perl-programming/
+  - url: http://ky6uk.ugatu.net/category/programming/perl-programming/feed
+    title: Perl | Ky6uk's Blog
+    web: http://ky6uk.ugatu.net/category/programming/perl-programming
