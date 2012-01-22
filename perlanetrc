@@ -399,6 +399,9 @@ feeds:
   - url: http://yuripats.livejournal.com/data/atom?tag=perl
     title: Сознательный беспорядок
     web: http://yuripats.livejournal.com/tag/perl
+  - url: http://retriba.livejournal.com/data/atom?tag=perl
+    title: kavkaz
+    web: http://retriba.livejournal.com/tag/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
