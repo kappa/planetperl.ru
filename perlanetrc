@@ -393,6 +393,12 @@ feeds:
   - url: http://www.feofilaktov.ru/category/perl/feed
     title: Сайт Ивана Феофилактова
     web: http://www.feofilaktov.ru/category/perl
+  - url: http://deniszh.blogspot.com/feeds/posts/default/-/perl
+    title: We load sixteen tons of software
+    web: http://deniszh.blogspot.com/search/label/perl
+  - url: http://yuripats.livejournal.com/data/atom?tag=perl
+    title: Сознательный беспорядок
+    web: http://yuripats.livejournal.com/tag/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
