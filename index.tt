@@ -172,6 +172,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 <a href="http://github.com/kappa/perlanet">[% cfg.agent | html %]</a><br />
 <a href="http://github.com/kappa/planetperl.ru">open source</a><br />
 <a href="http://kapranoff.ru">Алексей Капранов</a>
+<a href="http://www.perl.org">Perl</a>
                         </div>
                      </div>
 
