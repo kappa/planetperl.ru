@@ -348,9 +348,6 @@ feeds:
   - url: http://perlgament.wordpress.com/feed/
     title: Perlgament
     web: http://perlgament.wordpress.com/
-  - url: http://zibtsev.name/?feed=rss2&cat=24
-    title: Зибцев Владимир
-    web: http://zibtsev.name/?cat=24
   - url: http://hashcode.ru/tags/perl/?type=rss
     title: Perl на hashcode.ru
     web: http://hashcode.ru/tags/perl/
@@ -402,6 +399,12 @@ feeds:
   - url: http://retriba.livejournal.com/data/atom?tag=perl
     title: kavkaz
     web: http://retriba.livejournal.com/tag/perl
+  - url: http://dur-randir.livejournal.com/data/atom?tag=perl
+    title: I'm seventeen and I'm crazy
+    web: http://dur-randir.livejournal.com/tag/perl
+  - url: http://perlito.livejournal.com/data/atom
+    title: Блог Perl программиста
+    web: http://perlito.livejournal.com/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -418,3 +421,6 @@ more_feeds:
   - url: http://ky6uk.ugatu.net/category/programming/perl-programming/feed
     title: Perl | Ky6uk's Blog
     web: http://ky6uk.ugatu.net/category/programming/perl-programming
+  - url: http://zibtsev.name/?feed=rss2&cat=24
+    title: Зибцев Владимир
+    web: http://zibtsev.name/?cat=24
