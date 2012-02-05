@@ -36,7 +36,7 @@
 (function(w, c) {
     (w[c] = w[c] || []).push(function() {
         try {
-            w.yaCounter10059763 = new Ya.Metrika({id:10059763, enableAll: true});
+            w.yaCounter10059763 = new Ya.Metrika({id:10059763, enableAll: true, webvisor:true});
         }
         catch(e) { }
     });
