@@ -405,6 +405,9 @@ feeds:
   - url: http://perlito.livejournal.com/data/atom
     title: Блог Perl программиста
     web: http://perlito.livejournal.com/
+  - url: http://nordicdyno.github.com/blog/categories/perl/atom.xml
+    title: ЙЯитцБлог by @nordicdyno
+    web: http://nordicdyno.github.com/blog/categories/perl/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
