@@ -363,9 +363,6 @@ feeds:
   - url: http://sontan.name/blog/rss/perl
     title: sontan.name
     web: http://sontan.name/blog/view/perl
-  - url: http://afiskon.blogspot.com/feeds/posts/default/-/%D0%9F%D0%B5%D1%80%D0%BB
-    title: Онлайновый памятезаменитель
-    web: http://afiskon.blogspot.com/search/label/%D0%9F%D0%B5%D1%80%D0%BB
   - url: http://www.perl-dev.ws/feeds/posts/default/-/perl
     title: Perl Dev
     web: http://www.perl-dev.ws/search/label/perl
@@ -408,6 +405,15 @@ feeds:
   - url: http://nordicdyno.github.com/blog/categories/perl/atom.xml
     title: ЙЯитцБлог by @nordicdyno
     web: http://nordicdyno.github.com/blog/categories/perl/
+  - url: http://notsugar0.livejournal.com/data/atom?tag=perl
+    title: notsugar0
+    web: http://notsugar0.livejournal.com/tag/perl
+  - url: http://feeds.feedburner.com/perlmania/qszn
+    title: perlmania.ru
+    web: http://www.perlmania.ru
+  - url: http://feeds.feedburner.com/dimio/XzfP
+    title: СетевойГибитобой
+    web: http://dimio.org
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -427,3 +433,6 @@ more_feeds:
   - url: http://zibtsev.name/?feed=rss2&cat=24
     title: Зибцев Владимир
     web: http://zibtsev.name/?cat=24
+  - url: http://afiskon.blogspot.com/feeds/posts/default/-/%D0%9F%D0%B5%D1%80%D0%BB
+    title: Онлайновый памятезаменитель
+    web: http://afiskon.blogspot.com/search/label/%D0%9F%D0%B5%D1%80%D0%BB
