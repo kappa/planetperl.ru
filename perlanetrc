@@ -19,12 +19,12 @@ agent: Perlanet/0.21+ for planetperl.ru
 cache_dir: /home/kappa/work/planetperl.ru/cache
 ping: http://feedburner.google.com/fb/a/pingSubmit?bloglink=http%3A%2F%2Fplanetperl.ru
 feeds:
-  - url: http://community.livejournal.com/ru_perl/data/atom
+  - url: http://ru-perl.livejournal.com/data/atom
     title: Сообщество ru_perl в LiveJournal
-    web: http://community.livejournal.com/ru_perl/
-  - url: http://community.livejournal.com/ru_catalyst/data/atom
+    web: http://ru-perl.livejournal.com/
+  - url: http://ru-catalyst.livejournal.com/data/atom
     title: Сообщество ru_catalyst в LiveJournal
-    web: http://community.livejournal.com/ru_catalyst/
+    web: http://ru-catalyst.livejournal.com/
   - url: http://moscow.pm.org/rss/
     title: Moscow.pm 2.0
     web: http://moscow.pm.org/
@@ -34,9 +34,6 @@ feeds:
   - url: http://sharifulin.posterous.com/rss.xml?tag=perl
     title: Анатолий Шарифулин
     web: http://sharifulin.posterous.com/tag/perl
-  - url: http://kiev.pm.org/?q=rss.xml
-    title: kiev.pm
-    web: http://kiev.pm.org/
   - url: http://onperl.ru/onperl/atom.xml
     title: On Perl — блог о языке программирования Perl и его сообществе
     web: http://onperl.ru/
@@ -49,9 +46,6 @@ feeds:
     filter:
       type: category
       category: perl
-  - url: http://perlmonks.org.ru/vorota_v_perl/atom.xml
-    title: Ворота в Perl
-    web: http://perlmonks.org.ru/vorota_v_perl/
   - url: http://laziness-impatience-hubris.blogspot.com/feeds/posts/default
     title: Laziness, Impatience and Hubris
     web: http://laziness-impatience-hubris.blogspot.com/
@@ -413,7 +407,7 @@ feeds:
     web: http://www.perlmania.ru
   - url: http://feeds.feedburner.com/dimio/XzfP
     title: СетевойГибитобой
-    web: http://dimio.org
+    web: http://dimio.org/tag/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -436,3 +430,9 @@ more_feeds:
   - url: http://afiskon.blogspot.com/feeds/posts/default/-/%D0%9F%D0%B5%D1%80%D0%BB
     title: Онлайновый памятезаменитель
     web: http://afiskon.blogspot.com/search/label/%D0%9F%D0%B5%D1%80%D0%BB
+  - url: http://kiev.pm.org/?q=rss.xml
+    title: kiev.pm
+    web: http://kiev.pm.org/
+  - url: http://perlmonks.org.ru/vorota_v_perl/atom.xml
+    title: Ворота в Perl
+    web: http://perlmonks.org.ru/vorota_v_perl/
