@@ -281,9 +281,6 @@ feeds:
       - type: category
         category: perl
       - type: microblog
-  - url: http://eax.me/category/programming/perl/feed/
-    title: Записки программиста — Perl
-    web: http://eax.me/category/programming/perl/
   - url: http://kaimi.ru/category/perl/feed/
     title: perl | Misc
     web: http://kaimi.ru/category/perl/
@@ -442,3 +439,6 @@ more_feeds:
     filter:
       type: category
       category: perl
+  - url: http://eax.me/category/programming/perl/feed/
+    title: Записки программиста — Perl
+    web: http://eax.me/category/programming/perl/
