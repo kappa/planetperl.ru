@@ -314,12 +314,6 @@ feeds:
       - type: category
         category: perl
       - type: microblog
-  - url: http://feeds.feedburner.com/DoersBlog
-    title: Doer's blog
-    web: http://doer.name/
-    filter:
-      type: category
-      category: perl
   - url: http://blog.perl6doc.ru/atom.xml
     title: Blog.Perl6doc.ru
     web: http://blog.perl6doc.ru/
@@ -411,6 +405,9 @@ feeds:
   - url: http://admdev.blogspot.com/feeds/posts/default/-/perl
     title: Админодевелопмент
     web: http://admdev.blogspot.com/search/label/perl
+  - url: http://doer.name/category/perl/feed/
+    title: doer.name » Perl
+    web: http://doer.name/category/perl/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -439,3 +436,9 @@ more_feeds:
   - url: http://perlmonks.org.ru/vorota_v_perl/atom.xml
     title: Ворота в Perl
     web: http://perlmonks.org.ru/vorota_v_perl/
+  - url: http://feeds.feedburner.com/DoersBlog
+    title: Doer's blog
+    web: http://doer.name/
+    filter:
+      type: category
+      category: perl
