@@ -74,7 +74,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                            mon = issued.mon - 1
                         %]
                         [% IF !prev_issued || issued.ymd != prev_issued.ymd %]
-                         <h2 class="date-header">[% issued.strftime("%A, %e-е") | ucfirst | html %] [% ru_EB.$mon | html %]</h2>
+                         <h2 class="date-header">[% issued.strftime("%A, %e") | ucfirst | html %] [% ru_EB.$mon | html %]</h2>
                         [% END %]
                         [% prev_issued = issued %]
                     [% END %]
