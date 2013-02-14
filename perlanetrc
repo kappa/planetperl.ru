@@ -287,7 +287,7 @@ feeds:
   - url: http://koorchik.blogspot.com/feeds/posts/default/-/perl
     title: koorchik's Perl blog
     web: http://koorchik.blogspot.com/search/default/perl
-  - url: http://twitter.com/statuses/user_timeline/114726031.rss
+  - url: http://api.twitter.com/1/statuses/user_timeline.rss?screen_name=yapcrussia
     title: yapcrussia twitter
     web: http://twitter.com/yapcrussia
     filter:
@@ -384,9 +384,6 @@ feeds:
   - url: http://dur-randir.livejournal.com/data/atom?tag=perl
     title: I'm seventeen and I'm crazy
     web: http://dur-randir.livejournal.com/tag/perl
-  - url: http://perlito.ru/feed/rss
-    title: Perlito
-    web: http://perlito.ru
   - url: http://nordicdyno.github.com/blog/categories/perl/atom.xml
     title: ЙЯитцБлог by @nordicdyno
     web: http://nordicdyno.github.com/blog/categories/perl/
@@ -405,6 +402,21 @@ feeds:
   - url: http://doer.name/category/perl/feed/
     title: doer.name » Perl
     web: http://doer.name/category/perl/
+  - url: http://andrey.opeykin.ru/blog/tag/perl-programming/feed/
+    title: Опейкин Андрей » Perl
+    web: http://andrey.opeykin.ru/blog/tag/perl-programming/
+  - url: http://jum.livejournal.com/data/atom?tag=perl
+    title: jum
+    web: http://jum.livejournal.com/tag/perl
+  - url: http://perlito.livejournal.com/data/atom
+    title: perlito
+    web: http://perlito.livejournal.com
+  - url: http://catalystone.blogspot.com/feeds/posts/default
+    title: Catalyst - MVC Perl Framework
+    web: http://catalystone.blogspot.ru/
+  - url: http://vladimir-stupin.blogspot.com/feeds/posts/default/-/dancer
+    title: Ещё один блог сисадмина
+    web: http://vladimir-stupin.blogspot.ru/search/label/dancer
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -415,9 +427,6 @@ more_feeds:
   - url: http://govnokod.ru/perl/rss
     title: Perl — Говнокод.ру
     web: http://govnokod.ru/perl
-  - url: http://andrey.opeykin.ru/category/perl-programming/feed/
-    title: Опейкин Андрей » Perl
-    web: http://andrey.opeykin.ru/category/perl-programming/
   - url: http://ky6uk.ugatu.net/category/programming/perl-programming/feed
     title: Perl | Ky6uk's Blog
     web: http://ky6uk.ugatu.net/category/programming/perl-programming
@@ -442,3 +451,6 @@ more_feeds:
   - url: http://eax.me/category/programming/perl/feed/
     title: Записки программиста — Perl
     web: http://eax.me/category/programming/perl/
+  - url: http://feeds.feedburner.com/Perlito
+    title: Perlito
+    web: http://perlito.ru
