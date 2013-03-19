@@ -417,6 +417,16 @@ feeds:
   - url: http://vladimir-stupin.blogspot.com/feeds/posts/default/-/dancer
     title: Ещё один блог сисадмина
     web: http://vladimir-stupin.blogspot.ru/search/label/dancer
+  - url: http://blog.truecrux.org/rss
+    title: crux's blog
+    web: http://blog.truecrux.org/tag/perl
+    filter:
+      type: category
+      category:
+        - perl
+  - url: http://eax.me/tag/perl/feed/
+    title: Записки программиста — Perl
+    web: http://eax.me/tag/perl/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
@@ -448,9 +458,6 @@ more_feeds:
     filter:
       type: category
       category: perl
-  - url: http://eax.me/category/programming/perl/feed/
-    title: Записки программиста — Perl
-    web: http://eax.me/category/programming/perl/
   - url: http://feeds.feedburner.com/Perlito
     title: Perlito
     web: http://perlito.ru
