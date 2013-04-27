@@ -107,7 +107,8 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 
 <ul>
 <li><i>Последнее обновление было [% feed.modified.set_time_zone("Europe/Moscow").strftime("%F в %R") | html %] по Москве</i></li>
-<li><a href="https://spreadsheets.google.com/viewform?formkey=dC04aFdpaXJWeXdPSlVvU3llSnptcmc6MA">Добавить сайт</a></li>
+<li><a href="https://github.com/kappa/planetperl.ru/blob/master/perlanetrc">Добавить сайт</a></li>
+<li><a href="https://spreadsheets.google.com/viewform?formkey=dC04aFdpaXJWeXdPSlVvU3llSnptcmc6MA">(или так)</a></li>
 </ul>
                         </div>
                      </div>
