@@ -427,6 +427,12 @@ feeds:
   - url: http://eax.me/tag/perl/feed/
     title: Записки программиста — Perl
     web: http://eax.me/tag/perl/
+  - url: http://perlobaron.tumblr.com/tagged/perl/rss
+    title: Я У МАМЫ ПРОГРАММИСТ
+    web: http://perlobaron.tumblr.com/tagged/perl/
+  - url: http://dev-lab.info/category/learning-perl/feed/
+    title: Блог программиста — Perl, Ruby, C#
+    web: http://dev-lab.info/category/learning-perl/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
