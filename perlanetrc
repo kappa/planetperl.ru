@@ -436,6 +436,9 @@ feeds:
   - url: http://www.pilat66.ru/topics/programmirovanie/perl/feed
     web: http://www.pilat66.ru/topics/programmirovanie/perl
     title: Pilat66 blog
+  - url: http://perltrap.com/ru/feed.xml
+    title: Ловушки Perl
+    web: http://perltrap.com/ru/
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
