@@ -461,6 +461,6 @@ more_feeds:
   - url: http://feeds.feedburner.com/Perlito
     title: Perlito
     web: http://perlito.ru
-  - url: http://noize85.blogspot.com/feeds/posts/default/
+  - url: http://noize85.blogspot.ru/feeds/posts/default/-/perl
     title: Моя обитель
     web: http://noize85.blogspot.ru/search/label/perl
