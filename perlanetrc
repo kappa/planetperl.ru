@@ -410,6 +410,9 @@ feeds:
   - url: http://perltrap.com/ru/feed.xml
     title: Ловушки Perl
     web: http://perltrap.com/ru/
+  - url: http://stas.raskumandrin.ru/rss/tag/perl
+    title: Perl • Бложек мизантропа
+    web: http://stas.raskumandrin.ru/tag/perl
 more_feeds:
   - url: http://cpan.perlrussia.ru/Russian/rss.xml
     title: CPAN uploads by Russian authors
