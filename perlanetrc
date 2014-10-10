@@ -290,7 +290,7 @@ feeds:
   - url: http://ixpict.ya.ru/rss/posts.xml?tag=7642392
     title: ixpict
     web: http://ixpict.ya.ru/posts.xml?tag=7642392
-  - url: http://opossumpetya.livejournal.com/tag/perl
+  - url: http://opossumpetya.livejournal.com/data/rss?tag=perl
     title: OpossumPetya
     web: http://opossumpetya.livejournal.com/
   - url: http://rss.juick.com/spleenjack/blog
