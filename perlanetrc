@@ -109,9 +109,9 @@ feeds:
   - url: http://design-patterns-perl.blogspot.com/feeds/posts/default
     title: Design Patterns in Perl
     web: http://design-patterns-perl.blogspot.com/
-  - url: http://shoorick.livejournal.com/data/atom?tag=perl
-    title: Shoor/нал
-    web: http://shoorick.livejournal.com/tag/perl
+  - url: http://shoorick.ru/category/perl/feed/
+    title: shoorick.ru — Александр Сапожников
+    web: http://shoorick.ru/category/perl/
   - url: http://infist-xxi.livejournal.com/data/atom?tag=perl
     title: Сонник
     web: http://infist-xxi.livejournal.com/tag/perl
