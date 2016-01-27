@@ -88,9 +88,6 @@ feeds:
   - url: http://likhatskiy.livejournal.com/data/atom
     title: Алексей Лихацкий
     web: http://likhatskiy.livejournal.com/
-  - url: http://feeds.feedburner.com/PerlZagPersonalBlog
-    title: ZAG.RU
-    web: http://zag.ru/
   - url: http://dzhariy.blogspot.com/feeds/posts/default
     title: bless $this, Blog
     web: http://dzhariy.blogspot.com/
@@ -100,12 +97,6 @@ feeds:
   - url: http://cubloid.livejournal.com/data/atom
     title: cubloid
     web: http://cubloid.livejournal.com/
-  - url: http://clubs.ya.ru/4611686018427388089/rss/posts.xml
-    title: Perl на ya.ru
-    web: http://clubs.ya.ru/4611686018427388089/
-  - url: http://clubs.ya.ru/regexp/rss/posts.xml
-    title: Регулярные выражения на ya.ru
-    web: http://clubs.ya.ru/regexp/
   - url: http://design-patterns-perl.blogspot.com/feeds/posts/default
     title: Design Patterns in Perl
     web: http://design-patterns-perl.blogspot.com/
@@ -191,12 +182,6 @@ feeds:
   - url: http://grey-olli.livejournal.com/data/atom?tag=perl
     title: grey_olli
     web: http://grey-olli.livejournal.com/tag/perl
-  - url: http://mmcleric2.ya.ru/rss/posts.xml?tag=858503
-    title: Вячеслав Матюхин
-    web: http://mmcleric2.ya.ru/posts.xml?tag=858503
-  - url: http://blinohod.livejournal.com/data/atom?tag=perl
-    title: Rattler lives here...
-    web: http://blinohod.livejournal.com/tag/perl
   - url: http://feeds2.feedburner.com/Foxcool
     title: Blog of Foxcool
     web: http://foxcool.ru/?tag=perl
@@ -219,19 +204,6 @@ feeds:
   - url: http://dcrsmith.blogspot.com/feeds/posts/default/-/Perl
     title: Бортовой Журнал
     web: http://dcrsmith.blogspot.com/search/label/Perl
-  - url: http://rss.juick.com/mvuets/blog
-    title: Максим Вуец (mvuets)
-    web: http://juick.com/mvuets/?tag=perl
-    filter:
-      - type: category
-        category: perl
-      - type: microblog
-  - url: http://feeds.feedburner.com/6-6-6
-    title: Андрей Костенко
-    web: http://kostenko.name/tag/perl/
-    filter:
-      type: category
-      category: perl
   - url: http://jackal.in/atom.xml
     title: Блог Джакала
     web: http://jackal.in/perl/
@@ -453,3 +425,31 @@ more_feeds:
   - url: http://noize85.blogspot.com/feeds/posts/default/
     title: Моя обитель
     web: http://noize85.blogspot.ru/search/label/perl
+  - url: http://feeds.feedburner.com/6-6-6
+    title: Андрей Костенко
+    web: http://kostenko.name/tag/perl/
+    filter:
+      type: category
+      category: perl
+  - url: http://feeds.feedburner.com/PerlZagPersonalBlog
+    title: ZAG.RU
+    web: http://zag.ru/
+  - url: http://clubs.ya.ru/4611686018427388089/rss/posts.xml
+    title: Perl на ya.ru
+    web: http://clubs.ya.ru/4611686018427388089/
+  - url: http://clubs.ya.ru/regexp/rss/posts.xml
+    title: Регулярные выражения на ya.ru
+    web: http://clubs.ya.ru/regexp/
+  - url: http://mmcleric2.ya.ru/rss/posts.xml?tag=858503
+    title: Вячеслав Матюхин
+    web: http://mmcleric2.ya.ru/posts.xml?tag=858503
+  - url: http://blinohod.livejournal.com/data/atom?tag=perl
+    title: Rattler lives here...
+    web: http://blinohod.livejournal.com/tag/perl
+  - url: http://rss.juick.com/mvuets/blog
+    title: Максим Вуец (mvuets)
+    web: http://juick.com/mvuets/?tag=perl
+    filter:
+      - type: category
+        category: perl
+      - type: microblog
