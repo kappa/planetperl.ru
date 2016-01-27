@@ -222,12 +222,6 @@ feeds:
   - url: http://habrahabr.ru/rss/tag/perl/
     title: Хабрахабр: Метки / perl
     web: http://habrahabr.ru/tag/perl/
-  - url: http://ru.ivan.fomichev.name/feeds/posts/default/-/perl?alt=rss
-    title: Кодекс кодоголика
-    web: http://ru.ivan.fomichev.name/search/label/perl
-  - url: http://allframeworks.ru/rss/tag/Perl/
-    title: allframeworks / Perl
-    web: http://allframeworks.ru/tag/Perl/
   - url: https://groups.google.com/forum/feed/fido7.ru.perl/topics/atom_v1_0.xml
     title: Fidonet RU.PERL
     web: http://groups.google.com/group/fido7.ru.perl/topics
@@ -253,12 +247,6 @@ feeds:
   - url: http://isokolov.blogspot.com/feeds/posts/default
     title: Заметки обычного перловика
     web: http://isokolov.blogspot.com/
-  - url: http://ixpict.ya.ru/rss/posts.xml?tag=7642392
-    title: ixpict
-    web: http://ixpict.ya.ru/posts.xml?tag=7642392
-  - url: http://opossumpetya.livejournal.com/tag/perl
-    title: OpossumPetya
-    web: http://opossumpetya.livejournal.com/
   - url: http://rss.juick.com/spleenjack/blog
     title: Eugene Ardarov
     web: http://juick.com/spleenjack/?tag=perl
@@ -279,18 +267,6 @@ feeds:
       type: category
       category:
         - mojo
-  - url: http://alienator.ya.ru/rss/posts.xml?tag=5572461
-    title: علي (Али)
-    web: http://alienator.ya.ru/posts.xml?tag=5572461
-  - url: http://slonik-v-domene.livejournal.com/data/atom?tag=perl
-    title: Убей в себе государство
-    web: http://slonik-v-domene.livejournal.com/tag/perl
-  - url: http://perlgament.wordpress.com/feed/
-    title: Perlgament
-    web: http://perlgament.wordpress.com/
-  - url: http://hashcode.ru/tags/perl/?type=rss
-    title: Perl на hashcode.ru
-    web: http://hashcode.ru/tags/perl/
   - url: http://antonfin.blogspot.com/feeds/posts/default
     title: antonfin's blog
     web: http://antonfin.blogspot.com/
@@ -303,21 +279,12 @@ feeds:
   - url: http://eugene-toropov.livejournal.com/data/atom?tag=perl
     title: Обо всем и сразу
     web: http://eugene-toropov.livejournal.com/tag/perl
-  - url: http://xryundel.livejournal.com/data/atom?tag=perl
-    title: Заварин Юра
-    web: http://xryundel.livejournal.com/tag/perl
   - url: http://niskam.livejournal.com/data/atom?tag=perl
     title: Валерий Студенников
     web: http://niskam.livejournal.com/tag/perl
   - url: http://meettya.ru/rss.xml?tag=perl
     title: Meettya's posterous
     web: http://meettya.ru/tag/perl
-  - url: http://www.feofilaktov.ru/category/perl/feed
-    title: Сайт Ивана Феофилактова
-    web: http://www.feofilaktov.ru/category/perl
-  - url: http://www.deniszh.org.ua/feeds/posts/default/-/perl
-    title: We load sixteen tons of software
-    web: http://www.deniszh.org.ua/search/label/perl
   - url: http://yuripats.livejournal.com/data/atom?tag=perl
     title: Сознательный беспорядок
     web: http://yuripats.livejournal.com/tag/perl
@@ -327,9 +294,6 @@ feeds:
   - url: http://dur-randir.livejournal.com/data/atom?tag=perl
     title: I'm seventeen and I'm crazy
     web: http://dur-randir.livejournal.com/tag/perl
-  - url: http://nordicdyno.github.com/blog/categories/perl/atom.xml
-    title: ЙЯитцБлог by @nordicdyno
-    web: http://nordicdyno.github.com/blog/categories/perl/
   - url: http://notsugar0.livejournal.com/data/atom?tag=perl
     title: notsugar0
     web: http://notsugar0.livejournal.com/tag/perl
@@ -339,9 +303,6 @@ feeds:
   - url: http://admdev.blogspot.com/feeds/posts/default/-/perl
     title: Админодевелопмент
     web: http://admdev.blogspot.com/search/label/perl
-  - url: http://doer.name/category/perl/feed/
-    title: doer.name » Perl
-    web: http://doer.name/category/perl/
   - url: http://andrey.opeykin.ru/blog/tag/perl-programming/feed/
     title: Опейкин Андрей » Perl
     web: http://andrey.opeykin.ru/blog/tag/perl-programming/
@@ -364,9 +325,6 @@ feeds:
   - url: http://eax.me/tag/perl/feed/
     title: Записки программиста — Perl
     web: http://eax.me/tag/perl/
-  - url: http://perlobaron.tumblr.com/tagged/perl/rss
-    title: Я У МАМЫ ПРОГРАММИСТ
-    web: http://perlobaron.tumblr.com/tagged/perl/
   - url: http://dev-lab.info/category/learning-perl/feed/
     title: Блог программиста — Perl, Ruby, C#
     web: http://dev-lab.info/category/learning-perl/
@@ -376,9 +334,6 @@ feeds:
   - url: http://perltrap.com/ru/feed.xml
     title: Ловушки Perl
     web: http://perltrap.com/ru/
-  - url: http://stas.raskumandrin.ru/rss/tag/perl
-    title: Perl • Бложек мизантропа
-    web: http://stas.raskumandrin.ru/tag/perl
   - url: http://perlnews.ru/blog/index.rss
     title: PerlNews.Ru
     web: http://perlnews.ru
@@ -453,3 +408,45 @@ more_feeds:
     filter:
       type: category
       category: Perl
+  - url: http://ru.ivan.fomichev.name/feeds/posts/default/-/perl?alt=rss
+    title: Кодекс кодоголика
+    web: http://ru.ivan.fomichev.name/search/label/perl
+  - url: http://allframeworks.ru/rss/tag/Perl/
+    title: allframeworks / Perl
+    web: http://allframeworks.ru/tag/Perl/
+  - url: http://ixpict.ya.ru/rss/posts.xml?tag=7642392
+    title: ixpict
+    web: http://ixpict.ya.ru/posts.xml?tag=7642392
+  - url: http://opossumpetya.livejournal.com/tag/perl
+    title: OpossumPetya
+    web: http://opossumpetya.livejournal.com/
+  - url: http://alienator.ya.ru/rss/posts.xml?tag=5572461
+    title: علي (Али)
+    web: http://alienator.ya.ru/posts.xml?tag=5572461
+  - url: http://perlgament.wordpress.com/feed/
+    title: Perlgament
+    web: http://perlgament.wordpress.com/
+  - url: http://hashcode.ru/tags/perl/?type=rss
+    title: Perl на hashcode.ru
+    web: http://hashcode.ru/tags/perl/
+  - url: http://xryundel.livejournal.com/data/atom?tag=perl
+    title: Заварин Юра
+    web: http://xryundel.livejournal.com/tag/perl
+  - url: http://www.feofilaktov.ru/category/perl/feed
+    title: Сайт Ивана Феофилактова
+    web: http://www.feofilaktov.ru/category/perl
+  - url: http://www.deniszh.org.ua/feeds/posts/default/-/perl
+    title: We load sixteen tons of software
+    web: http://www.deniszh.org.ua/search/label/perl
+  - url: http://nordicdyno.github.com/blog/categories/perl/atom.xml
+    title: ЙЯитцБлог by @nordicdyno
+    web: http://nordicdyno.github.com/blog/categories/perl/
+  - url: http://doer.name/category/perl/feed/
+    title: doer.name » Perl
+    web: http://doer.name/category/perl/
+  - url: http://perlobaron.tumblr.com/tagged/perl/rss
+    title: Я У МАМЫ ПРОГРАММИСТ
+    web: http://perlobaron.tumblr.com/tagged/perl/
+  - url: http://stas.raskumandrin.ru/rss/tag/perl
+    title: Perl • Бложек мизантропа
+    web: http://stas.raskumandrin.ru/tag/perl
