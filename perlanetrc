@@ -219,12 +219,6 @@ feeds:
   - url: http://what-me.livejournal.com/data/atom?tag=perl
     title: what_me
     web: http://what-me.livejournal.com/tag/perl
-  - url: http://maxim.vuets.name/blog/rss/
-    title: Максим Вуец
-    web: http://maxim.vuets.name/blog/
-    filter:
-      type: category
-      category: Perl
   - url: http://habrahabr.ru/rss/tag/perl/
     title: Хабрахабр: Метки / perl
     web: http://habrahabr.ru/tag/perl/
@@ -453,3 +447,9 @@ more_feeds:
       - type: category
         category: perl
       - type: microblog
+  - url: http://maxim.vuets.name/blog/rss/
+    title: Максим Вуец
+    web: http://maxim.vuets.name/blog/
+    filter:
+      type: category
+      category: Perl
