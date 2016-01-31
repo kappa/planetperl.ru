@@ -146,12 +146,12 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                         <div class="module-content">
 <ul>
 <li class="module-list-loose"><a href="[% cfg.feed.url | html %]" title="Подписаться на RSS"><img src="http://perl.takahashi.su/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>&nbsp;<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS">RSS</a></li>
-<li class="module-list-loose"><a href="http://friendfeed.com/planetperlru"><img src="http://perl.takahashi.su/frf-chiclet.png" alt="Подписаться на канал FriendFeed" title="Подписаться на канал FriendFeed" width="88" height="17" /></a></li>
 <li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="http://perl.takahashi.su/btn_addfriend.png" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a></li>
-<li><a href="http://lenta.yandex.ru/settings.xml?name=feed&amp;url=[% cfg.feed.url | url | html %]"><img src="http://perl.takahashi.su/yalenta.png" border="0" alt="Читать в Яндекс.Ленте" width="100" height="22" /></a></li>
 <iframe src="//www.facebook.com/plugins/like.php?href=facebook.com%2Fplanetperl&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
 <li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="http://perl.takahashi.su/twitbut.png" alt="Twitter Button from twitbuttons.com" width="104" height="12" /></a></li>
-<li class="module-list-loose"><a href="http://content.mail.ru/cgi-bin/subscribe.cgi?list_id=61365">Подписка по email</a></li>
+<li class="module-list-loose">
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"c2327db8cd28838fd0ac17e9c","lid":"e60b343428"}) })</script>
+</li>
 </ul>
                         </div>
                      </div>
@@ -160,8 +160,8 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
                         <h2 class="module-header">Ссылки</h2>
                         <div class="module-content">
                         <ul>
-                        <li class="module-list-loose"><a href="http://cpan.perlrussia.ru/Russian/">Русские авторы на CPAN</a>&nbsp;<a href="http://cpan.perlrussia.ru/Russian/rss.xml" title="RSS"><img src="http://perl.takahashi.su/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a></li>
-                        <li class="module-list-loose"><a href="http://moscow.pm.org">Московские Перлмонгеры</a></li>
+                        <li class="module-list-loose"><a href="https://metacpan.org/pod/Acme::CPANAuthors::Russian">Русские авторы на CPAN</a></li>
+                        <li class="module-list-loose"><a href="http://moscow.pm">Московские Перлмонгеры</a></li>
                         <li class="module-list-loose"><a href="http://perlrussia.ru">Русскоязычные Perl-мероприятия</a></li>
                         </ul>
                         </div>
