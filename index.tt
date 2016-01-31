@@ -26,10 +26,26 @@
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
   })();
 </script>
+
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+</style>
+
 </head>
 <body class="layout-two-column-left">
    <div id="container">
       <div id="container-inner" class="pkg">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div style="position: absolute;">
 <!-- Yandex.Metrika counter -->
 <div style="display:none;"><script type="text/javascript">
@@ -147,10 +163,23 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 <ul>
 <li class="module-list-loose"><a href="[% cfg.feed.url | html %]" title="Подписаться на RSS"><img src="http://perl.takahashi.su/feed-icon16x16.png" alt="" style="border:0" width="16" height="16" /></a>&nbsp;<a href="[% cfg.feed.url | html %]" title="Подписаться на RSS">RSS</a></li>
 <li class="module-list-loose"><a href="http://www.livejournal.com/friends/add.bml?user=planetperlru"><img src="http://perl.takahashi.su/btn_addfriend.png" width="22" height="20" alt="Добавить этого пользователя в вашу ленту друзей" title="Добавить этого пользователя в вашу ленту друзей" border="0" /></a>&nbsp;<a href="http://syndicated.livejournal.com/planetperlru/">LiveJournal</a></li>
-<iframe src="//www.facebook.com/plugins/like.php?href=facebook.com%2Fplanetperl&amp;send=false&amp;layout=button_count&amp;width=200&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:200px; height:21px;" allowTransparency="true"></iframe>
+<li class="module-list-loose">
+    <div class="fb-follow" data-href="https://www.facebook.com/%D0%9F%D0%B5%D1%80%D0%BB-%D0%BF%D0%BE-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8-161223310642241/" data-layout="button_count" data-show-faces="false"></div>
+</li>
 <li class="module-list-loose"><a href="http://twitter.com/planetperlru"><img src="http://perl.takahashi.su/twitbut.png" alt="Twitter Button from twitbuttons.com" width="104" height="12" /></a></li>
 <li class="module-list-loose">
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"c2327db8cd28838fd0ac17e9c","lid":"e60b343428"}) })</script>
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//planetperl.us12.list-manage.com/subscribe/post?u=c2327db8cd28838fd0ac17e9c&amp;id=e60b343428" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Адрес email" required>
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c2327db8cd28838fd0ac17e9c_e60b343428" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Подписаться" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
 </li>
 </ul>
                         </div>
